@@ -19,6 +19,7 @@ See [docs/README.md](docs/README.md) for a suggested reading order.
 - **[SCF History](docs/scf-history.md)** — Deep dive into every SCF version (1.0–7.0), all award types, special programs, and cumulative funding statistics from 3,301 submissions and $49.3M in payouts.
 - **[SCF 7.0 Guide](docs/scf-7-guide.md)** — Program overview, all three Build Award tracks, Instawards, evaluation criteria, and best practices.
 - **[Tips for Applying](docs/tips-for-applying.md)** — Data-driven advice on what gets funded and what gets rejected, with stats from 1,048 Build Award submissions.
+- **[Getting a Referral](docs/getting-a-referral.md)** — How the SCF Referral Program works, what referrers evaluate, and how to earn a referral without burning relationships.
 - **[Interest Form Tips](docs/interest-form-tips.md)** — How to write a strong Interest Form and get invited to apply.
 - **[Submission Template](docs/submission-template.md)** — Fill-in-the-blank Build Award application template connecting all guides.
 - **[Technical Architecture](docs/technical-architecture.md)** — Best practices for the architecture section: diagrams, Soroban details, data flow, security.
