@@ -5,7 +5,8 @@
 Read these in order:
 
 1. **[SCF 7.0 Guide](scf-7-guide.md)** — Understand the program, tracks, and what changed. Start here.
-2. **[Interest Form Tips](interest-form-tips.md)** — Write a strong Interest Form to get invited to apply.
+2. **[Tips for Applying](tips-for-applying.md)** — Data-driven advice on what gets funded and what gets rejected.
+3. **[Interest Form Tips](interest-form-tips.md)** — Write a strong Interest Form to get invited to apply.
 3. **[Submission Template](submission-template.md)** — Fill-in-the-blank template connecting all guides into one draft.
 4. **[Technical Architecture](technical-architecture.md)** — Build your architecture section with specifics reviewers want.
 5. **[Writing Deliverables](writing-deliverables.md)** — Structure deliverables across the four tranches.
@@ -37,6 +38,7 @@ Read these in order:
 |-------|-----|---------|
 | [SCF History](scf-history.md) | Everyone | All versions, award types, special programs, data-driven stats |
 | [SCF 7.0 Guide](scf-7-guide.md) | Everyone | Program overview, tracks, evaluation criteria, history |
+| [Tips for Applying](tips-for-applying.md) | Applicants | Data-driven advice on what gets funded vs rejected |
 | [Interest Form Tips](interest-form-tips.md) | Applicants | How to pass the first filter |
 | [Submission Template](submission-template.md) | Applicants | Full application draft template |
 | [Technical Architecture](technical-architecture.md) | Applicants | Architecture section best practices |
