@@ -16,6 +16,7 @@ Guides and reference documentation for SCF applicants and reviewers:
 
 See [docs/README.md](docs/README.md) for a suggested reading order.
 
+- **[SCF History](docs/scf-history.md)** — Deep dive into every SCF version (1.0–7.0), all award types, special programs, and cumulative funding statistics from 3,301 submissions and $49.3M in payouts.
 - **[SCF 7.0 Guide](docs/scf-7-guide.md)** — Program overview, all three Build Award tracks, Instawards, evaluation criteria, and best practices.
 - **[Interest Form Tips](docs/interest-form-tips.md)** — How to write a strong Interest Form and get invited to apply.
 - **[Submission Template](docs/submission-template.md)** — Fill-in-the-blank Build Award application template connecting all guides.

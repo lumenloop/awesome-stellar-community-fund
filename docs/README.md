@@ -27,10 +27,15 @@ Read these in order:
 2. **[SCF Reviewer Skill](../skills/scf-reviewer.md)** — Evaluation framework, track weighting, output formats, and verification requirements.
 3. **Reference as needed:** Use the applicant guides as benchmarks for "what good looks like" — the reviewer skill links to each one.
 
+## Background and Research
+
+- **[SCF History](scf-history.md)** — Deep dive into every SCF version (1.0–7.0), all award types, special programs, and cumulative funding statistics from 3,301 submissions and $49.3M in payouts.
+
 ## Full Index
 
 | Guide | For | Summary |
 |-------|-----|---------|
+| [SCF History](scf-history.md) | Everyone | All versions, award types, special programs, data-driven stats |
 | [SCF 7.0 Guide](scf-7-guide.md) | Everyone | Program overview, tracks, evaluation criteria, history |
 | [Interest Form Tips](interest-form-tips.md) | Applicants | How to pass the first filter |
 | [Submission Template](submission-template.md) | Applicants | Full application draft template |
