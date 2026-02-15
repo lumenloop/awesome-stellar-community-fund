@@ -109,6 +109,217 @@ Keep each tranche focused. Two to four deliverables per tranche is the sweet spo
 
 ---
 
+## How to Format Each Deliverable
+
+Funded Build Award submissions consistently use a structured format for each deliverable. This makes it easy for reviewers to evaluate and speeds up tranche approval. Use this format:
+
+> **Deliverable N — [Name]**
+> - **Description:** What you will build or deliver.
+> - **Completion criteria:** How a reviewer confirms it's done — the specific artifact or metric.
+> - **Estimated completion:** Date or duration.
+> - **Budget:** Cost for this deliverable.
+
+This format comes directly from how successful applicants across rounds 28–40 structured their submissions. Reviewers expect it. Projects that use vague prose instead of structured deliverables consistently score lower.
+
+---
+
+## Verification Methods Reference
+
+Different types of deliverables call for different proof. Here's an expanded reference drawn from patterns in funded projects:
+
+| Deliverable Type | Strong Verification Methods |
+|---|---|
+| Smart contract deployment | Testnet/mainnet contract address + GitHub repo with source code + passing test suite |
+| SDK or library | Published package (npm, crates.io, PyPI) + GitHub repo + documentation site |
+| Frontend / app | Live URL or testable build + screen recording or demo video |
+| API or backend service | API endpoint URL + documentation + example requests/responses |
+| Integration with external service | End-to-end transaction demo (screen recording or live URL) showing the full flow |
+| Mobile app | Testable build (TestFlight / APK) + screen recording of core flows |
+| Security review or audit | Published audit report (or summary with auditor named) |
+| Documentation | Published docs URL with table of contents |
+| Community testing | Testable URL shared in Discord + collected feedback report |
+| Performance / load testing | Benchmark report with metrics (throughput, latency, error rates) |
+
+---
+
+## Examples by Category
+
+The examples below are modeled on patterns from funded Build Award submissions across SCF rounds. They are not SCF 7 submissions, but the deliverable structure and expectations carry over directly.
+
+### Applications — Fintech / Payments
+
+**Pattern:** Remittance or payment app integrating Stellar anchors, wallets, or stablecoin rails.
+
+**Tranche 1 — MVP** ($36,000)
+
+1. **Stellar asset integration**
+   - **Description:** Integrate XLM and Stellar USDC for deposits, withdrawals, and conversion to fiat currencies with same-day payouts.
+   - **Completion criteria:** Successful end-to-end deposit, conversion, and local fiat withdrawal on testnet.
+   - **Estimated completion:** 2 weeks.
+   - **Budget:** $10,000
+
+2. **Card funding via Stellar USDC**
+   - **Description:** Enable Stellar USDC deposits to fund payment cards (virtual + physical).
+   - **Completion criteria:** User funds a card with Stellar USDC and completes a transaction. Screen recording.
+   - **Estimated completion:** 2 weeks.
+   - **Budget:** $20,000
+
+3. **QA, compliance, and production rollout**
+   - **Description:** Finalize AML/KYC adjustments for Stellar assets, perform QA, deploy production release.
+   - **Completion criteria:** All Stellar transactions processed live and fully compliant.
+   - **Estimated completion:** 0.5 weeks.
+   - **Budget:** $6,000
+
+**Tranche 2 — Testnet** ($40,000)
+
+1. **Partner API for ecosystem projects**
+   - **Description:** Develop API allowing Stellar-based projects to issue co-branded cards funded with Stellar USDC.
+   - **Completion criteria:** Partner project successfully issues a card, funds with Stellar USDC, and executes a transaction.
+   - **Estimated completion:** 3 weeks.
+   - **Budget:** $20,000
+
+2. **Mobile app MVP (iOS + Android)**
+   - **Description:** Mobile app enabling onboarding, KYC, Stellar wallet setup, card management, and fiat conversion.
+   - **Completion criteria:** User completes KYC, activates Stellar wallet, funds card, and spends. Testable builds shared.
+   - **Estimated completion:** 4 weeks.
+   - **Budget:** $20,000
+
+**Tranche 3 — Mainnet** ($13,500)
+
+1. **Payment rails API integration**
+   - **Description:** Integrate payment rails API to enable Stellar USDC to fiat conversion and local payouts in expanded regions.
+   - **Completion criteria:** Successful user deposit and withdrawal via supported payout rails on mainnet.
+   - **Estimated completion:** 2.5 weeks.
+   - **Budget:** $13,500
+
+---
+
+### Financial Protocols — DeFi / Lending
+
+**Pattern:** On-chain lending, escrow, or trading protocol built on Soroban.
+
+**Tranche 1 — MVP** ($41,050)
+
+1. **Soroban core contracts**
+   - **Description:** Develop and deploy Loans, LPPool, PolicyRegistry, and LiquidationManager contracts on Soroban localnet. Implement event emissions and inter-contract calls.
+   - **Completion criteria:** All contracts deploy and interact via CLI and integration tests. Full loan creation and liquidation logic operational in simulation.
+   - **Estimated completion:** 6 weeks.
+   - **Budget:** $23,240
+
+2. **Oracle and executor simulation**
+   - **Description:** Implement mock oracle adapter (BTC/USD, USDC/USD) and prototype off-chain executor for liquidation receipts.
+   - **Completion criteria:** Mock price updates trigger liquidations; receipts acknowledged on-chain. Full liquidation flow runs in simulation.
+   - **Estimated completion:** 2 weeks.
+   - **Budget:** $7,940
+
+3. **Backend API integration**
+   - **Description:** Build lightweight backend API to manage borrower positions (borrow, repay, liquidation) and connect with Soroban contracts.
+   - **Completion criteria:** End-to-end user flow (borrow / repay / liquidation trigger) validated locally.
+   - **Estimated completion:** 2 weeks.
+   - **Budget:** $9,870
+
+**Tranche 2 — Testnet** ($34,100)
+
+1. **Testnet deployment**
+   - **Description:** Deploy complete smart contract suite to Stellar testnet with configured governance and admin roles.
+   - **Completion criteria:** All modules callable via testnet RPC, verified through end-to-end test transactions.
+   - **Estimated completion:** 1.5 weeks.
+   - **Budget:** $8,890
+
+2. **Oracle and anchor integrations**
+   - **Description:** Integrate DIA/Reflector oracles and implement SEP-10/12/24 for authentication, KYC, and fiat off-ramp.
+   - **Completion criteria:** Borrower completes verified end-to-end flow — KYC, loan, fiat transfer, repayment — on testnet with live oracle data.
+   - **Estimated completion:** 3 weeks.
+   - **Budget:** $18,740
+
+3. **System validation**
+   - **Description:** Scenario tests covering interest accrual, liquidation thresholds, and anchor synchronization.
+   - **Completion criteria:** All tests pass under expected network conditions; performance metrics logged and verified.
+   - **Estimated completion:** 1.5 weeks.
+   - **Budget:** $6,470
+
+**Tranche 3 — Mainnet** ($18,510)
+
+1. **Mainnet contract deployment**
+   - **Description:** Deploy final Soroban contracts to mainnet with updated parameters and verified governance.
+   - **Completion criteria:** Core interactions (borrow, repay, partial liquidation) execute without errors on mainnet.
+   - **Estimated completion:** 1.5 weeks.
+   - **Budget:** $8,470
+
+2. **Mainnet backend integration**
+   - **Description:** Connect backend to mainnet contracts, enable live oracle feeds, synchronize custody records.
+   - **Completion criteria:** Stable live operations for 7 consecutive days with no desync or transaction failures.
+   - **Estimated completion:** 1.5 weeks.
+   - **Budget:** $5,960
+
+3. **Stress testing and validation**
+   - **Description:** Mainnet load testing under varying network conditions.
+   - **Completion criteria:** Performance benchmarks (throughput, latency) meet predefined thresholds.
+   - **Estimated completion:** 1 week.
+   - **Budget:** $4,080
+
+---
+
+### Developer Tooling — SDKs and Plugins
+
+**Pattern:** Open-source SDK, plugin, or developer tool for the Stellar/Soroban ecosystem.
+
+**Tranche 1 — MVP** ($18,000)
+
+1. **Core SDK structure and testnet connection**
+   - **Description:** Core SDK (e.g., C# Soroban client), connection to testnet contracts, basic transaction and read/write functionality. Internal demo project for proof of concept.
+   - **Completion criteria:** GitHub alpha release + demo video. SDK successfully performs testnet transactions.
+   - **Estimated completion:** 8 weeks.
+   - **Budget:** $18,000 (Engineering $10K, Docs $3K, Design/demo $3K, PM/testing $2K)
+
+**Tranche 2 — Testnet** ($17,000)
+
+1. **Wallet and integration templates**
+   - **Description:** Wallet connection + transaction signing. NFT minting and token management examples.
+   - **Completion criteria:** Beta release + working Unity sample scenes. All examples run on testnet.
+   - **Estimated completion:** 8 weeks.
+   - **Budget:** $17,000 (Engineering $10K, Docs $3K, Design $2K, PM/testing $2K)
+
+**Tranche 3 — Mainnet** ($12,000)
+
+1. **Documentation site and public launch**
+   - **Description:** Public documentation site and tutorials. Community outreach via Stellar/Soroban dev channels. SDK published (e.g., Unity Asset Store, npm).
+   - **Completion criteria:** Public SDK v1.0 launch + outreach report. Docs live at public URL.
+   - **Estimated completion:** 8 weeks.
+   - **Budget:** $12,000 (Engineering $5K, Docs $4K, Design $2K, PM $1K)
+
+---
+
+### Infrastructure — Platform / API Services
+
+**Pattern:** Hosted service, monitoring tool, or API infrastructure for the Stellar network.
+
+**Tranche 1 — MVP** ($24,000)
+
+1. **Core CLI/SDK with authentication and workspace management**
+   - **Description:** CLI tool with auth (login/logout/refresh), workspace management (init/status/config), and core data operations.
+   - **Completion criteria:** Package installable + documentation available. Two external systems integrated (whitelisted partners).
+   - **Estimated completion:** Month 3.
+   - **Budget:** $24,000 (Lead dev 3 mo: $14K, Backend dev 2 mo: $8K, Testing/docs: $2K)
+
+**Tranche 2 — Testnet** ($36,000)
+
+1. **Stellar integration and testnet deployment**
+   - **Description:** Selective disclosure features, receipt system, governance smart contract on Stellar testnet, proof-of-concept tokenization, web dashboard for non-technical users.
+   - **Completion criteria:** Circuit governance contract deployed on testnet. Web dashboard accessible. Public API documentation published.
+   - **Estimated completion:** Month 4.
+   - **Budget:** $36,000 (Lead dev: $20K, Stellar integration dev: $9K, Frontend: $4K, Infra: $3K)
+
+**Tranche 3 — Mainnet** ($30,000)
+
+1. **Production deployment and community framework**
+   - **Description:** Platform live on Stellar mainnet. Framework released for community developers. Partner integrations live. Monitoring and support infrastructure.
+   - **Completion criteria:** Platform operational on mainnet. Performance validated with 1,000+ items across 10+ circuits. Developer docs published. Example apps available.
+   - **Estimated completion:** Month 6.
+   - **Budget:** $30,000 (Lead dev: $18K, DevOps: $6K, Partnerships: $4K, Docs/community: $2K)
+
+---
+
 ## Integration Track Deliverable Example
 
 **Project:** Remittance app integrating Stellar anchor for USD-to-PHP corridor

@@ -20,8 +20,8 @@ See [docs/README.md](docs/README.md) for a suggested reading order.
 - **[Interest Form Tips](docs/interest-form-tips.md)** — How to write a strong Interest Form and get invited to apply.
 - **[Submission Template](docs/submission-template.md)** — Fill-in-the-blank Build Award application template connecting all guides.
 - **[Technical Architecture](docs/technical-architecture.md)** — Best practices for the architecture section: diagrams, Soroban details, data flow, security.
-- **[Writing Deliverables](docs/writing-deliverables.md)** — How to structure deliverables across the four-tranche milestone system.
-- **[Writing Budgets](docs/writing-budgets.md)** — Bottom-up budget construction, rate benchmarks, and tranche mapping.
+- **[Writing Deliverables](docs/writing-deliverables.md)** — How to structure deliverables across the four-tranche milestone system, with category-specific examples from funded projects.
+- **[Writing Budgets](docs/writing-budgets.md)** — Bottom-up budget construction, rate benchmarks, tranche mapping, and budget statistics from 215 funded Build Awards.
 - **[Proving Traction](docs/proving-traction.md)** — On-chain metrics, usage data, demand signals, and adoption targets.
 - **[UX Readiness](docs/ux-readiness.md)** — The T3 UX readiness gate: what it means and how to plan for it.
 - **[Submitting Tranches](docs/submitting-tranches.md)** — How to submit tranche deliverables for review: what to include, format, and common delays.

@@ -164,61 +164,89 @@ User does [action]
 
 ## Deliverables and Milestones
 
-> See: [Writing Deliverables Guide](writing-deliverables.md) for detailed best practices
-
-### Tranche 0 — Proof of Intent (10%)
-
-**Deliverables:**
-1. [Technical deliverable that interacts with Stellar/Soroban — e.g., "Deploy escrow contract to testnet with passing tests"]
-   - Verification: [How a reviewer confirms this — e.g., "Contract address + GitHub repo link"]
-2. [Second deliverable if applicable]
-   - Verification: [Method]
-
-**Timeline:** [Estimated weeks]
+> See: [Writing Deliverables Guide](writing-deliverables.md) for detailed best practices and category-specific examples
 
 ### Tranche 1 — MVP (20%)
 
-**Deliverables:**
-1. [Core feature deliverable — e.g., "Working app with wallet connection and basic transaction flow"]
-   - Verification: [Method]
-2. [Second deliverable]
-   - Verification: [Method]
+**Goal:** [One sentence describing what this tranche proves — e.g., "Build the core protocol components and demonstrate full lending logic."]
 
-**Timeline:** [Estimated weeks]
+**Deliverable 1 — [Name]**
+- **Description:** [What you will build or deliver]
+- **Completion criteria:** [How a reviewer confirms it's done — specific artifact, metric, or test]
+- **Estimated completion:** [Date or duration]
+- **Budget:** $[X]
+
+**Deliverable 2 — [Name]**
+- **Description:** [What you will build or deliver]
+- **Completion criteria:** [Specific artifact or metric]
+- **Estimated completion:** [Date or duration]
+- **Budget:** $[X]
+
+**Deliverable 3 — [Name]** *(if needed)*
+- **Description:** [What you will build or deliver]
+- **Completion criteria:** [Specific artifact or metric]
+- **Estimated completion:** [Date or duration]
+- **Budget:** $[X]
+
+**Tranche 1 Total:** $[X]
 
 ### Tranche 2 — Testnet Launch (30%)
 
-**Deliverables:**
-1. [Full feature set on testnet — e.g., "Complete testnet deployment with all core features"]
-   - Verification: [Method]
-2. [Community testing — e.g., "Testable build shared in Stellar Discord"]
-   - Verification: [Method]
-3. [Quality assurance — e.g., "Integration test suite with >80% coverage"]
-   - Verification: [Method]
+**Goal:** [One sentence — e.g., "Deploy to Stellar testnet, integrate live oracle feeds, and validate with community feedback."]
 
-**Timeline:** [Estimated weeks]
+**Deliverable 1 — [Name]**
+- **Description:** [What you will build or deliver]
+- **Completion criteria:** [Specific artifact or metric]
+- **Estimated completion:** [Date or duration]
+- **Budget:** $[X]
+
+**Deliverable 2 — [Name]**
+- **Description:** [What you will build or deliver]
+- **Completion criteria:** [Specific artifact or metric]
+- **Estimated completion:** [Date or duration]
+- **Budget:** $[X]
+
+**Deliverable 3 — [Name]** *(if needed)*
+- **Description:** [What you will build or deliver]
+- **Completion criteria:** [Specific artifact or metric]
+- **Estimated completion:** [Date or duration]
+- **Budget:** $[X]
+
+**Tranche 2 Total:** $[X]
 
 ### Tranche 3 — Mainnet + UX Readiness (40%)
 
 > See: [UX Readiness Guide](ux-readiness.md) for T3 requirements
 
-**Deliverables:**
-1. [Mainnet deployment — e.g., "All contracts deployed to mainnet, app live at production URL"]
-   - Verification: [Method]
-2. [UX readiness — e.g., "Onboarding flow with in-app tutorial, error handling, FAQ"]
-   - Verification: [Method]
-3. [Documentation — e.g., "User docs and API reference published"]
-   - Verification: [Method]
-4. [Metrics — e.g., "Public dashboard showing transaction volume and user count"]
-   - Verification: [Method]
+**Goal:** [One sentence — e.g., "Launch on Stellar mainnet with production-ready UX, documentation, and monitoring."]
 
-**Timeline:** [Estimated weeks]
+**Deliverable 1 — [Name, e.g., "Mainnet contract deployment"]**
+- **Description:** [What you will build or deliver]
+- **Completion criteria:** [e.g., "Core interactions execute without errors on mainnet for 7 consecutive days"]
+- **Estimated completion:** [Date or duration]
+- **Budget:** $[X]
+
+**Deliverable 2 — [Name, e.g., "Production UX and onboarding"]**
+- **Description:** [What you will build or deliver]
+- **Completion criteria:** [e.g., "Onboarding flow live with tutorial, error handling, and FAQ"]
+- **Estimated completion:** [Date or duration]
+- **Budget:** $[X]
+
+**Deliverable 3 — [Name, e.g., "Documentation and monitoring"]**
+- **Description:** [What you will build or deliver]
+- **Completion criteria:** [e.g., "User docs published, dashboard showing transaction volume and user count"]
+- **Estimated completion:** [Date or duration]
+- **Budget:** $[X]
+
+**Tranche 3 Total:** $[X]
 
 ---
 
 ## Budget
 
-> See: [Writing Budgets Guide](writing-budgets.md) for detailed best practices
+> See: [Writing Budgets Guide](writing-budgets.md) for detailed best practices and budget ranges from funded projects
+
+**Total request:** $[X]
 
 ### Cost Breakdown
 
@@ -234,12 +262,20 @@ User does [action]
 
 ### Budget by Tranche
 
-| Tranche | Amount | Work Covered |
-|---------|--------|-------------|
-| T0 (10%) | $[X] | [Summary of T0 work] |
-| T1 (20%) | $[X] | [Summary of T1 work] |
-| T2 (30%) | $[X] | [Summary of T2 work] |
-| T3 (40%) | $[X] | [Summary of T3 work] |
+The strongest submissions tie their per-tranche budgets directly to the deliverables above. Each tranche should have its own breakdown — not just a total.
+
+| Tranche | Budget | Breakdown |
+|---------|--------|-----------|
+| T0 (10%) | $[X] | [Automatic — 10% of total on award approval] |
+| T1 / MVP (20%) | $[X] | [e.g., Development $XK, Design $XK, Infrastructure $XK] |
+| T2 / Testnet (30%) | $[X] | [e.g., Development $XK, QA/testing $XK, Security $XK] |
+| T3 / Mainnet (40%) | $[X] | [e.g., Development $XK, UX improvements $XK, Docs $XK, Monitoring $XK] |
+
+**Reference ranges by category** (from funded Build Awards):
+- Applications: median $85K (25th–75th: $60K–$118K)
+- Developer Tooling: median $75K (25th–75th: $35K–$99K)
+- Financial Protocols: median $109K (25th–75th: $94K–$144K)
+- Infrastructure & Services: median $116K (25th–75th: $62K–$143K)
 
 ---
 

@@ -126,6 +126,34 @@ The percentages are fixed (10/20/30/40), so your deliverables per tranche should
 
 ---
 
+## Budget Ranges from Funded Projects
+
+The following statistics are drawn from 215 funded Build Award submissions across SCF rounds. Use them to calibrate your request — not as targets to hit, but as context for what reviewers have approved.
+
+### By Category
+
+| Category | Median Budget | 25th Percentile | 75th Percentile | Count |
+|---|---|---|---|---|
+| Applications | $85,000 | $60,000 | $118,000 | 100 |
+| Developer Tooling | $75,000 | $35,000 | $99,000 | 33 |
+| Financial Protocols | $109,000 | $94,000 | $144,000 | 39 |
+| Infrastructure & Services | $116,000 | $62,000 | $143,000 | 40 |
+
+### By Budget Range
+
+| Range | Number of Funded Projects |
+|---|---|
+| Under $25K | 5 |
+| $25K – $50K | 28 |
+| $50K – $75K | 39 |
+| $75K – $100K | 48 |
+| $100K – $125K | 39 |
+| $125K – $150K | 56 |
+
+**What this tells you:** There's no single "right" number. Developer tooling projects frequently get funded in the $35K–$75K range. Financial protocols and infrastructure tend to run higher. The most common range overall is $75K–$100K, but plenty of focused projects succeed at $25K–$50K. Request what your scope requires — reviewers are more concerned with proportionality than the absolute number.
+
+---
+
 ## Rate Benchmarks
 
 Reviewers have seen hundreds of budgets. Rates that are wildly above market for the work described raise flags. Here are rough benchmarks (varies by region and experience):
@@ -198,6 +226,76 @@ The lifetime cap is $150K standard, with up to $300K case-by-case for projects w
 | T1 (20%) | $17,000 | MVP mobile app with wallet, basic anchor deposit flow |
 | T2 (30%) | $25,500 | Full testnet app, KYC, tx history, community testing, security review |
 | T3 (40%) | $34,000 | Mainnet launch, onboarding UX, docs, monitoring dashboard |
+
+---
+
+## More Budget Examples from Funded Projects
+
+The examples below are modeled on budget patterns from funded Build Award submissions. They show different approaches for different project types and sizes.
+
+### Developer Tooling — Small Scope ($47K)
+
+**Project:** Game engine SDK for Soroban integration
+
+| Category | Item | Budget |
+|---|---|---|
+| Engineering | SDK development and contract testing | $25,000 |
+| Documentation | Tutorials and community support materials | $10,000 |
+| Design | UI, demo game creation | $7,000 |
+| Operations | Project management, testing, hosting, release | $5,000 |
+| | **Total** | **$47,000** |
+
+**Per-tranche breakdown:**
+
+| Tranche | Budget | Breakdown |
+|---|---|---|
+| T1 / MVP | $18,000 | Engineering $10K, Docs $3K, Design $3K, PM $2K |
+| T2 / Testnet | $17,000 | Engineering $10K, Docs $3K, Design $2K, PM $2K |
+| T3 / Mainnet | $12,000 | Engineering $5K, Docs $4K, Design $2K, PM $1K |
+
+Why this works: Clear four-category split. Each tranche has its own breakdown. Engineering front-loaded in T1/T2, docs and launch costs shift toward T3.
+
+---
+
+### Applications — OSS Platform ($60K)
+
+**Project:** Open-source collaboration hub for Stellar ecosystem
+
+| Tranche | Budget | Breakdown |
+|---|---|---|
+| T1 / MVP | $30,000 | Development $18K, Escrow integration $7K, Design $3K, Infrastructure $2K |
+| T2 / Testnet | $10,000 | QA/testing $5K, Backend optimization $3K, Security improvements $2K |
+| T3 / Mainnet | $20,000 | Escrow finalization $6.5K, KYC integration $4K, Backend/hosting $3.5K, UX improvements $4.5K, Post-launch monitoring $1.5K |
+
+Why this works: Tranche budgets match scope — heavy T1 for core build, light T2 for testing, moderate T3 for production features and polish. Every line item is specific.
+
+---
+
+### Infrastructure — CLI/SDK + Platform ($90K)
+
+**Project:** Agricultural traceability platform on Stellar
+
+| Tranche | Budget | Key Roles |
+|---|---|---|
+| T1 / MVP ($24K) | Lead dev (3 mo): $14K | Backend dev (2 mo): $8K, Testing/docs: $2K |
+| T2 / Testnet ($36K) | Lead dev (2 mo): $20K | Stellar integration dev (1.5 mo): $9K, Frontend dev (1 mo): $4K, Infrastructure: $3K |
+| T3 / Mainnet ($30K) | Lead dev (2 mo): $18K | DevOps/production: $6K, Partnership integration: $4K, Docs/community: $2K |
+
+Why this works: Role-based breakdown makes rates verifiable. Testnet tranche is the most expensive because it adds the Stellar integration specialist. Infrastructure costs are explicit and small.
+
+---
+
+### Financial Protocols — Lending ($94K)
+
+**Project:** Institutional-grade Lombard lending protocol on Soroban
+
+| Tranche | Budget | Deliverable Costs |
+|---|---|---|
+| T1 / MVP | $41,050 | Soroban core contracts: $23,240. Oracle/executor simulation: $7,940. Backend API: $9,870 |
+| T2 / Testnet | $34,100 | Testnet deployment: $8,890. Oracle/anchor integrations: $18,740. System validation: $6,470 |
+| T3 / Mainnet | $18,510 | Mainnet deployment: $8,470. Backend integration: $5,960. Stress testing: $4,080 |
+
+Why this works: Budget is tied to specific deliverables, not abstract categories. Each deliverable has its own cost. The most expensive items (core contracts, oracle integrations) are justified by complexity. Mainnet tranche is lean because the hard technical work is done in T1/T2.
 
 ---
 
