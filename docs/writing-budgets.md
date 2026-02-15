@@ -10,20 +10,18 @@ The maximum Build Award is $150,000 in XLM. Requesting the maximum is not inhere
 
 ---
 
-## Start Small, Build Trust, Come Back
+## Tip: Consider Starting Smaller
 
-One of the strongest moves a new applicant can make is to **reduce their scope, request a smaller amount, execute well, and come back for more.** Reputation and trust are the most valuable currencies in the SCF ecosystem. A team that ships a $40K award cleanly — on time, on budget, with verifiable deliverables — is in a far stronger position for a second, larger award than a team that asks for $150K upfront and has to explain why they need it.
+You can request whatever amount your project genuinely needs — there's no penalty for asking for $150K if the scope justifies it. That said, proposals with a tighter scope and a smaller ask tend to be easier to evaluate and more likely to get funded, especially for teams without an existing SCF track record.
 
-**Why this works:**
+**Why smaller and easier-to-execute proposals do well:**
 
-- **You build a track record.** Returning applicants with completed deliverables and on-chain traction get faster review, stronger trust signals, and higher approval rates.
-- **You reduce your own risk.** A tighter scope means fewer things can go wrong. You ship, you learn, you adjust.
-- **Reviewers reward execution.** A finished $50K project with real users is worth more to the ecosystem — and to your reputation — than a half-built $150K project that stalled at T2.
-- **The lifetime cap is $150K–$300K.** You don't lose access to funding by starting small. You can apply for additional awards after you deliver.
+- **They're easier to say yes to.** A focused $50K proposal with clear deliverables is a simpler decision for reviewers than a sprawling $150K plan with many moving parts.
+- **You build trust through execution.** Returning applicants who shipped their prior award cleanly get faster review and stronger trust signals. Reputation compounds.
+- **You reduce your own risk.** A tighter scope means fewer things can go wrong. You ship, you learn, you adjust before committing to more.
+- **You don't lose access to future funding.** The lifetime cap is $150K–$300K. Starting with a smaller award and coming back with traction data for a second award is a well-worn path.
 
-**Practical approach:** Cut your roadmap down to the smallest version that demonstrates real value. What can you ship in 3-4 months with $40K–$70K? Ship that. Get users. Show traction. Then come back with data proving you deserve more.
-
-This is especially important for first-time SCF applicants with no prior Stellar track record. Large asks from unknown teams face the highest rejection rates.
+**Something to consider:** What's the smallest version of your project that demonstrates real value on Stellar? If you can ship that in 3-4 months and show users, you'll be in a strong position to come back for more — with data instead of promises.
 
 ---
 

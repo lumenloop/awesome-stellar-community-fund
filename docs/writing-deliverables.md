@@ -23,11 +23,9 @@ Every Build Award distributes funding across these milestones:
 
 Your job is to define concrete deliverables under each tranche that a reviewer can verify without ambiguity.
 
-### Scope Down, Ship, Come Back
+### Tip: Consider Tightening Your Scope
 
-Before you plan your deliverables, ask: **Can I reduce the scope?** One of the strongest strategies — especially for first-time applicants — is to define a tighter, smaller set of deliverables, request less funding, execute cleanly, and come back for a second award with traction data.
-
-Reputation and trust matter enormously in the SCF ecosystem. A team that completes a focused $40K–$70K award on time, with verifiable on-chain results, is in a far stronger position for a larger follow-up award than a team that proposed an ambitious $150K plan and stalled. The lifetime cap is $150K–$300K — you don't lose access to future funding by starting small. You gain credibility.
+You can scope your deliverables to whatever your project genuinely requires. That said, before you plan, it's worth asking: **could I tighten this?** Proposals with fewer, more focused deliverables are easier to evaluate and more likely to get funded. A smaller, well-executed award also builds the trust and track record that make follow-up awards much easier to get. The lifetime cap is $150K–$300K, so starting focused doesn't close any doors — it opens them with data instead of promises.
 
 ---
 
