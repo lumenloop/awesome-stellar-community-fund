@@ -10,6 +10,23 @@ The maximum Build Award is $150,000 in XLM. Requesting the maximum is not inhere
 
 ---
 
+## Start Small, Build Trust, Come Back
+
+One of the strongest moves a new applicant can make is to **reduce their scope, request a smaller amount, execute well, and come back for more.** Reputation and trust are the most valuable currencies in the SCF ecosystem. A team that ships a $40K award cleanly — on time, on budget, with verifiable deliverables — is in a far stronger position for a second, larger award than a team that asks for $150K upfront and has to explain why they need it.
+
+**Why this works:**
+
+- **You build a track record.** Returning applicants with completed deliverables and on-chain traction get faster review, stronger trust signals, and higher approval rates.
+- **You reduce your own risk.** A tighter scope means fewer things can go wrong. You ship, you learn, you adjust.
+- **Reviewers reward execution.** A finished $50K project with real users is worth more to the ecosystem — and to your reputation — than a half-built $150K project that stalled at T2.
+- **The lifetime cap is $150K–$300K.** You don't lose access to funding by starting small. You can apply for additional awards after you deliver.
+
+**Practical approach:** Cut your roadmap down to the smallest version that demonstrates real value. What can you ship in 3-4 months with $40K–$70K? Ship that. Get users. Show traction. Then come back with data proving you deserve more.
+
+This is especially important for first-time SCF applicants with no prior Stellar track record. Large asks from unknown teams face the highest rejection rates.
+
+---
+
 ## Build a Bottom-Up Budget
 
 The strongest budgets are built from the bottom up: start with the work, estimate what it costs, and arrive at a total. Do not start with a number and reverse-engineer line items to justify it.
@@ -98,12 +115,14 @@ Organize your budget into clear categories. Here's a standard structure:
 
 Your budget should map cleanly to the tranche structure. Reviewers check that the percentage of budget in each tranche matches the scope of work.
 
+**A note on tranche names:** The labels "MVP," "Testnet," and "Mainnet" are more symbolic than literal. Think of them as **Milestone 1, Milestone 2, and Milestone 3.** Your T1 deliverable doesn't have to be a traditional MVP, and your T2 doesn't have to be a testnet deployment in every case. What matters is that each milestone represents a meaningful, verifiable step forward — progressively building toward a live, usable product. The names signal the general direction (working prototype -> testable build -> production-ready launch), but the specific deliverables should fit your project's reality, not be forced into a rigid naming convention.
+
 | Tranche | % of Budget | What the Money Covers |
 |---------|-------------|----------------------|
 | T0 (10%) | $X | POC development, initial architecture |
-| T1 (20%) | $X | MVP build: core features, basic UI |
-| T2 (30%) | $X | Full feature build, testnet deployment, testing, community feedback |
-| T3 (40%) | $X | Mainnet launch, UX polish, docs, onboarding, monitoring setup |
+| T1 / Milestone 1 (20%) | $X | Core features working: first meaningful build |
+| T2 / Milestone 2 (30%) | $X | Feature-complete build, testable, community feedback |
+| T3 / Milestone 3 (40%) | $X | Production launch, UX readiness, docs, monitoring |
 
 The percentages are fixed (10/20/30/40), so your deliverables per tranche should justify receiving that share. If T0 only requires a weekend of work, your budget may be too high overall.
 

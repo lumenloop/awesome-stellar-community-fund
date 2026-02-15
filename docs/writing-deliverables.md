@@ -15,11 +15,19 @@ Every Build Award distributes funding across these milestones:
 | Tranche | Budget | Milestone | What You Prove |
 |---------|--------|-----------|---------------|
 | 0 | 10% | Award approval | Proof of intent |
-| 1 | 20% | MVP | Core Stellar/Soroban integration works |
-| 2 | 30% | Testnet | Product is testable end-to-end |
-| 3 | 40% | Mainnet + UX readiness | Product is live, usable, and discoverable |
+| 1 | 20% | Milestone 1 | Core Stellar/Soroban integration works |
+| 2 | 30% | Milestone 2 | Product is testable end-to-end |
+| 3 | 40% | Milestone 3 + UX readiness | Product is live, usable, and discoverable |
+
+**A note on naming:** You'll see tranches referred to as "MVP," "Testnet," and "Mainnet" in SCF documentation. These labels are more symbolic than literal — think of them as Milestone 1, 2, and 3. Your T1 doesn't have to be a traditional MVP, and your T2 doesn't have to be exclusively a testnet deployment. What matters is that each milestone represents a meaningful, verifiable step forward. The names signal the general direction (working core -> testable build -> production launch), but your specific deliverables should fit your project, not be forced into rigid categories.
 
 Your job is to define concrete deliverables under each tranche that a reviewer can verify without ambiguity.
+
+### Scope Down, Ship, Come Back
+
+Before you plan your deliverables, ask: **Can I reduce the scope?** One of the strongest strategies — especially for first-time applicants — is to define a tighter, smaller set of deliverables, request less funding, execute cleanly, and come back for a second award with traction data.
+
+Reputation and trust matter enormously in the SCF ecosystem. A team that completes a focused $40K–$70K award on time, with verifiable on-chain results, is in a far stronger position for a larger follow-up award than a team that proposed an ambitious $150K plan and stalled. The lifetime cap is $150K–$300K — you don't lose access to future funding by starting small. You gain credibility.
 
 ---
 
