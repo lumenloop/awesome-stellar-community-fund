@@ -15,11 +15,11 @@ Every Build Award distributes funding across these milestones:
 | Tranche | Budget | Milestone | What You Prove |
 |---------|--------|-----------|---------------|
 | 0 | 10% | Award approval | Proof of intent |
-| 1 | 20% | Milestone 1 | Core Stellar/Soroban integration works |
-| 2 | 30% | Milestone 2 | Product is testable end-to-end |
-| 3 | 40% | Milestone 3 + UX readiness | Product is live, usable, and discoverable |
+| 1 | 20% | MVP | Core Stellar/Soroban integration works |
+| 2 | 30% | Testnet | Product is testable end-to-end |
+| 3 | 40% | Mainnet + UX readiness | Product is live, usable, and discoverable |
 
-**A note on naming:** You'll see tranches referred to as "MVP," "Testnet," and "Mainnet" in SCF documentation. These labels are more symbolic than literal — think of them as Milestone 1, 2, and 3. Your T1 doesn't have to be a traditional MVP, and your T2 doesn't have to be exclusively a testnet deployment. What matters is that each milestone represents a meaningful, verifiable step forward. The names signal the general direction (working core -> testable build -> production launch), but your specific deliverables should fit your project, not be forced into rigid categories.
+**A note on tranches:** MVP, Testnet, and Mainnet are the official tranche names, but they each represent applicant-defined milestones. You decide what the specific deliverables are within each tranche. "MVP" doesn't have to mean a traditional minimum viable product, and "Testnet" doesn't have to be exclusively about a testnet deployment. What matters is that each tranche represents a meaningful, verifiable step forward — the deliverables within it should fit your project, not be forced into rigid categories.
 
 Your job is to define concrete deliverables under each tranche that a reviewer can verify without ambiguity.
 

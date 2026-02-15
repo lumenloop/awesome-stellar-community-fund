@@ -113,14 +113,14 @@ Organize your budget into clear categories. Here's a standard structure:
 
 Your budget should map cleanly to the tranche structure. Reviewers check that the percentage of budget in each tranche matches the scope of work.
 
-**A note on tranche names:** The labels "MVP," "Testnet," and "Mainnet" are more symbolic than literal. Think of them as **Milestone 1, Milestone 2, and Milestone 3.** Your T1 deliverable doesn't have to be a traditional MVP, and your T2 doesn't have to be a testnet deployment in every case. What matters is that each milestone represents a meaningful, verifiable step forward — progressively building toward a live, usable product. The names signal the general direction (working prototype -> testable build -> production-ready launch), but the specific deliverables should fit your project's reality, not be forced into a rigid naming convention.
+**A note on tranches:** The tranche names — MVP, Testnet, Mainnet — are the official names, but they each represent three applicant-defined milestones. You decide what the specific deliverables are within each tranche. "MVP" doesn't have to mean a traditional minimum viable product, and "Testnet" doesn't have to mean your only deliverable is a testnet deployment. What matters is that each tranche represents a meaningful, verifiable step forward that you define — progressively building toward a live, usable product.
 
 | Tranche | % of Budget | What the Money Covers |
 |---------|-------------|----------------------|
 | T0 (10%) | $X | POC development, initial architecture |
-| T1 / Milestone 1 (20%) | $X | Core features working: first meaningful build |
-| T2 / Milestone 2 (30%) | $X | Feature-complete build, testable, community feedback |
-| T3 / Milestone 3 (40%) | $X | Production launch, UX readiness, docs, monitoring |
+| T1 / MVP (20%) | $X | Core features working: first meaningful build |
+| T2 / Testnet (30%) | $X | Feature-complete build, testable, community feedback |
+| T3 / Mainnet (40%) | $X | Production launch, UX readiness, docs, monitoring |
 
 The percentages are fixed (10/20/30/40), so your deliverables per tranche should justify receiving that share. If T0 only requires a weekend of work, your budget may be too high overall.
 
