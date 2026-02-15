@@ -38,11 +38,14 @@ SCF 7.0 reorganizes the Build Award into three specialized tracks, plus a decent
 
 ### 1. Integration Track
 
-**Who it's for:** Teams integrating existing Stellar ecosystem building blocks — DeFi protocols, wallet SDKs, anchor services, and other ready-to-use components — into their product.
+**Who it's for:** Teams building an end-user application whose primary purpose is to integrate a specific Stellar ecosystem building block — a DeFi protocol, wallet SDK, anchor service, or other ready-to-use component — into a product that serves real users.
+
+**Critical distinction:** The Integration Track is a grant *for* an integration. It is not an Open Track submission that happens to mention an integration partner. The integration partner and the building block being integrated must be the central focus of the project. Reviewers evaluate whether the partner is relevant, whether the integration is substantive, and whether the end product delivers the building block's value to users. If your project is a novel protocol or tool that merely touches an existing component, it belongs in the Open Track instead.
 
 - Reviewed by a quarterly-rotating panel of SCF Pilot delegates.
-- The specific building blocks and use cases eligible for the Integration Track are decided by quarterly (and ad hoc) community votes.
+- The specific building blocks and use cases eligible for the Integration Track are decided by quarterly (and ad hoc) community votes. Check the current list before applying.
 - Ideal for fintech apps, neobanks, remittance platforms, and other end-user products that leverage existing Stellar infrastructure rather than building new primitives from scratch.
+- The integration partner should be named, active in the Stellar ecosystem, and directly relevant to the project's core functionality.
 
 ### 2. Open Track
 
@@ -199,11 +202,13 @@ Before reaching the review panel, submissions must clear prescreening:
 
 ### Integration Track Tips
 
-1. **Know the building blocks.** Research which ecosystem components (DeFi protocols, wallet SDKs, anchor services) are eligible for the current quarter. The list changes based on community votes.
-2. **Show the integration architecture.** Include diagrams or specs showing exactly how you connect to the Stellar component. Reviewers want to see that you understand the SDK/API, not just the concept.
-3. **Demonstrate end-user value.** This track rewards applications that put Stellar functionality in the hands of real users. Show your target audience, their pain point, and how the integration solves it.
-4. **Highlight existing traction.** If you already have users on another chain or platform, quantify them. The panel wants evidence that integrating Stellar will serve real demand, not speculative interest.
-5. **Don't over-scope.** The Integration Track is for incorporating existing solutions, not building new primitives. Keep your proposal focused on the integration itself and the user experience around it.
+1. **Understand what this track is.** The Integration Track is a grant *for* an integration. Your project's core value proposition must be delivering an existing Stellar building block to end users. If you're building a novel protocol that happens to touch an existing component, apply to the Open Track instead.
+2. **Name your integration partner explicitly.** State which building block you're integrating, who built it, and confirm it's on the current quarter's eligible list. Reviewers reject submissions with vague or peripheral partners.
+3. **Know the building blocks.** Research which ecosystem components (DeFi protocols, wallet SDKs, anchor services) are eligible for the current quarter. The list changes based on community votes — check it before you write your application.
+4. **Show the integration architecture.** Include diagrams or specs showing exactly how you connect to the Stellar component. Reviewers want to see that you understand the SDK/API, not just the concept.
+5. **Demonstrate end-user value.** This track rewards applications that put Stellar functionality in the hands of real users. Show your target audience, their pain point, and how the integration solves it.
+6. **Highlight existing traction.** If you already have users on another chain or platform, quantify them. The panel wants evidence that integrating Stellar will serve real demand, not speculative interest.
+7. **Don't over-scope.** Keep your proposal focused on the integration itself and the user experience around it. You're incorporating an existing solution, not building new primitives.
 
 ### Open Track Tips
 

@@ -15,6 +15,9 @@ Reusable review and evaluation skills for SCF applications. Currently includes:
 Guides and reference documentation for SCF applicants and reviewers:
 
 - **[SCF 7.0 Guide](docs/scf-7-guide.md)** — Deep dive into SCF 7.0: all three Build Award tracks (Integration, Open, RFP), Instawards, what changed from prior versions, evaluation criteria, and best practices for applying to each track.
+- **[Writing Deliverables](docs/writing-deliverables.md)** — How to break your project into clear, verifiable milestone deliverables across the four-tranche structure. Includes examples for Integration and Open tracks.
+- **[Technical Architecture](docs/technical-architecture.md)** — Best practices for writing the technical architecture section of your application. Covers system diagrams, Stellar/Soroban integration details, data flow, and security.
+- **[Proving Traction](docs/proving-traction.md)** — How to demonstrate product-market fit and user demand. Covers on-chain metrics, usage data, demand signals, and adoption targets.
 
 ## About the SCF
 
