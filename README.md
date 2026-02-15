@@ -24,6 +24,7 @@ See [docs/README.md](docs/README.md) for a suggested reading order.
 - **[Writing Budgets](docs/writing-budgets.md)** — Bottom-up budget construction, rate benchmarks, and tranche mapping.
 - **[Proving Traction](docs/proving-traction.md)** — On-chain metrics, usage data, demand signals, and adoption targets.
 - **[UX Readiness](docs/ux-readiness.md)** — The T3 UX readiness gate: what it means and how to plan for it.
+- **[Submitting Tranches](docs/submitting-tranches.md)** — How to submit tranche deliverables for review: what to include, format, and common delays.
 - **[Post-Launch and Growth](docs/post-launch-growth.md)** — Growth Hack, Launch Weeks, BD support, and additional Build Awards.
 - **[RFP Response Guide](docs/rfp-response-guide.md)** — RFP-specific guidance: spec compliance, DX, maintenance, and domain expertise.
 
