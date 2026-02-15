@@ -20,9 +20,47 @@ This is non-negotiable. Unverified reviews undermine the integrity of the SCF pr
 ## Review Process
 
 1. **Gather context** — Search for the project, team, token, integration partner; check for prior launches on other chains; look up on-chain data; review the SCF handbook. **Follow every link in the submission and verify claims independently.**
-2. **Evaluate against SCF criteria** — Does Stellar play a core role? Is the team committed? Does the integration add lasting value? Is the budget appropriate?
-3. **Cross-check your findings** — Before producing output, verify that your own statements are evidence-backed. Flag anything you could not independently confirm.
-4. **Produce review outputs** in the requested format (form fields, deep dive, or both).
+2. **Identify the track** — Determine whether this is an Integration, Open, or RFP submission. Apply the correct track-specific weighting (see below).
+3. **Evaluate against SCF criteria** — Does Stellar play a core role? Is the team committed? Does the integration add lasting value? Is the budget appropriate?
+4. **Cross-check your findings** — Before producing output, verify that your own statements are evidence-backed. Flag anything you could not independently confirm.
+5. **Produce review outputs** in the requested format (form fields, deep dive, checklist, or combination).
+
+## Track-Specific Weighting
+
+Different tracks have different priorities. Weight your evaluation accordingly:
+
+### Integration Track
+
+| Priority | Area | Weight |
+|----------|------|--------|
+| Highest | **Integration Partner Fit** — Is the partner relevant, on the eligible list, and central to the project? Is this genuinely a grant *for* an integration, or an Open Track project with a partner bolted on? | Critical |
+| High | **End-User Value** — Does this put the building block in the hands of real users? | High |
+| High | **Traction** — Existing users, demand signals, partner commitments | High |
+| Medium | **Technical Architecture** — Sound integration design, correct SDK/API usage | Medium |
+| Medium | **Budget** — Proportional to integration scope (not inflated) | Medium |
+| Lower | **Novelty** — Not the primary concern for Integration Track | Lower |
+
+### Open Track
+
+| Priority | Area | Weight |
+|----------|------|--------|
+| Highest | **Ecosystem Impact** — What does this unlock for Stellar? Composability, new capabilities, ecosystem-level value | Critical |
+| High | **Technical Depth** — Soroban-native design, contract architecture, protocol design, security | High |
+| High | **Differentiation** — Why is this better/different than alternatives on Stellar or other chains? | High |
+| Medium | **Traction** — Community interest, validated need, prior work | Medium |
+| Medium | **Budget** — Proportional to technical scope | Medium |
+| Medium | **Community Readiness** — Will community voters understand and support this? | Medium |
+
+### RFP Track
+
+| Priority | Area | Weight |
+|----------|------|--------|
+| Highest | **Spec Compliance** — Does the submission address every requirement in the RFP? | Critical |
+| High | **Relevant Prior Work** — Has the team built this type of infrastructure before? | High |
+| High | **Developer Experience** — Setup ease, docs plan, error messages, SDK integration | High |
+| High | **Maintenance Plan** — During-grant and post-grant support commitments | High |
+| Medium | **Technical Approach** — Sound architecture, appropriate technology choices | Medium |
+| Medium | **Timeline** — Realistic, front-loaded with hard work, includes docs/testing time | Medium |
 
 ## Evaluation Framework
 
@@ -30,17 +68,64 @@ Covers six areas:
 
 | Area | What to Assess |
 |------|---------------|
-| **Integration Partner Fit** | Is the partner relevant? Is Stellar central to the integration? |
-| **Technical Architecture** | Does the project use Soroban smart contracts? Is the design sound? |
-| **Team Readiness** | Are team members named and credible? Prior Stellar/Soroban experience? |
-| **Traction** | Organic demand signals, adoption metrics, existing user base? |
-| **Budget & Deliverables** | Is the budget proportional to scope? Are milestones concrete? |
-| **Ecosystem Commitment** | Long-term Stellar alignment or chain-hopping risk? |
+| **Integration Partner Fit** | Is the partner relevant? Is Stellar central to the integration? Is this genuinely a grant for an integration (not an Open Track project with a peripheral partner)? |
+| **Technical Architecture** | Does the project use Soroban smart contracts? Is the design sound? Is Stellar core or shoehorned? Does the architecture include data flows, security, and state management? |
+| **Team Readiness** | Are team members named and credible? Prior Stellar/Soroban experience? Can they execute on this specific scope? |
+| **Traction** | Organic demand signals, adoption metrics, existing user base? On-chain metrics verifiable? Adoption targets specific and measurable? |
+| **Budget & Deliverables** | Is the budget bottom-up and proportional to scope? Are milestones concrete and verifiable? Does T0 include Stellar/Soroban technical work? |
+| **Ecosystem Commitment** | Long-term Stellar alignment or chain-hopping risk? Maintenance plan? Post-launch growth strategy? |
 
 ## Output Formats
 
-- **Form fields** — 1-2 bullet points per field, direct, no em dashes.
-- **Deep-dive analysis** — Lead with what the project is, separate strengths from concerns, address ecosystem fit, end with a clear recommendation.
+### Form Fields
+1-2 bullet points per field, direct, no em dashes.
+
+### Deep-Dive Analysis
+Lead with what the project is, separate strengths from concerns, address ecosystem fit, end with a clear recommendation.
+
+### Checklist Mode
+Run through each evaluation area with a pass/flag/fail assessment:
+
+```
+## Checklist Review: [Project Name]
+Track: [Integration / Open / RFP]
+
+### Integration Partner Fit
+- Status: [PASS / FLAG / FAIL]
+- Evidence: [What you found]
+- Concerns: [If any]
+
+### Technical Architecture
+- Status: [PASS / FLAG / FAIL]
+- Evidence: [What you found]
+- Concerns: [If any]
+
+### Team Readiness
+- Status: [PASS / FLAG / FAIL]
+- Evidence: [What you found]
+- Concerns: [If any]
+
+### Traction
+- Status: [PASS / FLAG / FAIL]
+- Evidence: [What you found]
+- Concerns: [If any]
+
+### Budget & Deliverables
+- Status: [PASS / FLAG / FAIL]
+- Evidence: [What you found]
+- Concerns: [If any]
+
+### Ecosystem Commitment
+- Status: [PASS / FLAG / FAIL]
+- Evidence: [What you found]
+- Concerns: [If any]
+
+### Overall Assessment
+- Recommendation: [Fund / Fund with conditions / Do not fund]
+- Key strength: [One sentence]
+- Key concern: [One sentence]
+- Verification gaps: [Anything you could not independently confirm]
+```
 
 ## Common Red Flags
 
@@ -54,6 +139,11 @@ Covers six areas:
 - Peripheral integration partners with no clear Stellar relevance
 - Claims that cannot be verified (broken links, no public evidence, unsubstantiated metrics)
 - Integration Track submissions that are really Open Track projects with a peripheral partner mentioned
+- Budget with no line-item breakdown or rates
+- "Continue development" as a deliverable
+- No UX readiness plan for T3
+- Documentation as an afterthought (especially for RFP Track)
+- No maintenance plan (especially for RFP Track)
 
 ## Common Strengths
 
@@ -64,6 +154,22 @@ Covers six areas:
 - Concrete adoption metrics and milestones
 - Proportional budgets that match deliverable scope
 - Composable infrastructure that benefits the broader ecosystem
+- Named team with verifiable track record
+- Bottom-up budget with rates and effort estimates
+- Verifiable on-chain traction (for returning applicants)
+- Clear maintenance and post-launch plan
+
+## Review Benchmarks
+
+Use these guides as benchmarks for "what good looks like" when evaluating submissions:
+
+- [Technical Architecture Guide](../docs/technical-architecture.md) — What a strong architecture section includes
+- [Writing Deliverables Guide](../docs/writing-deliverables.md) — How deliverables should be structured across tranches
+- [Proving Traction Guide](../docs/proving-traction.md) — What credible traction evidence looks like
+- [Writing Budgets Guide](../docs/writing-budgets.md) — How a well-structured budget is built
+- [UX Readiness Guide](../docs/ux-readiness.md) — What UX readiness requires at T3
+- [RFP Response Guide](../docs/rfp-response-guide.md) — What strong RFP responses include
+- [SCF 7.0 Guide](../docs/scf-7-guide.md) — Full program context and track definitions
 
 ## Reference Links
 
