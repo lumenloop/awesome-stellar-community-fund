@@ -10,6 +10,12 @@ Reusable review and evaluation skills for SCF applications. Currently includes:
 
 - **[scf-reviewer](skills/scf-reviewer.md)** — A structured framework for reviewing SCF Build Award applications. Covers Integration Track and Open Track submissions with evaluation criteria, output templates, red flags, and reference links.
 
+### [docs/](docs/)
+
+Guides and reference documentation for SCF applicants and reviewers:
+
+- **[SCF 7.0 Guide](docs/scf-7-guide.md)** — Deep dive into SCF 7.0: all three Build Award tracks (Integration, Open, RFP), Instawards, what changed from prior versions, evaluation criteria, and best practices for applying to each track.
+
 ## About the SCF
 
 The Stellar Community Fund awards grants to projects that grow the Stellar ecosystem. Reviewers evaluate applications across dimensions like integration fit, technical architecture, team readiness, traction, and budget proportionality. The resources in this repo help standardize and streamline that review process.
