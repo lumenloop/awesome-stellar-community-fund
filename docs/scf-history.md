@@ -326,11 +326,11 @@ SCF 7.0, announced January 16, 2026, is the most structural redesign since v5.0:
   - **Open Track** — For experienced teams building novel protocols or infrastructure. Decided by community vote via Neural Quorum Governance.
   - **RFP Track** — For developers responding to published Requests for Proposals targeting identified ecosystem gaps. Reviewed by domain-expert delegate panels.
 - **Instawards** — Replaced Kickstart. Decentralized, ambassador-led awards of up to $15K for very early-stage teams. Regional Stellar Ambassador chapters recommend projects, subject to SDF approval.
-- **Referral system** — Trusted ecosystem participants (SCF alumni, ambassadors, partners) can refer teams. Referred submissions get stronger trust signals and faster review. Referrers earn recognition and financial incentives.
+- **Referral system** — Trusted ecosystem participants (Pilots and SDF staff) can refer teams. Referred submissions get stronger trust signals and faster review. Referrers earn recognition and financial incentives.
 - **AI-powered prescreening** — Non-referred submissions go through automated prescreening to filter low-signal applications.
 - **UX readiness gate** — The final tranche (T3) now requires functional interfaces and usable onboarding, not just a mainnet deployment.
 - **Interest Form first** — All new projects submit an Interest Form before being invited to a Build Award round.
-- **Post-launch support** — Growth Hack program, Launch Weeks, BD support, and investment access for teams with live mainnet deployments.
+- **Post-launch support** — Growth Hack program, liquidity grants, public good funding, BD support, and investment access for teams with live mainnet deployments.
 - **Four explicit tranches** — 10% / 20% / 30% / 40% structure formalized.
 
 ### Award Amounts

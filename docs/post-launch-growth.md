@@ -1,6 +1,6 @@
-# Post-Launch and Growth Hack Preparation
+# Post-Launch and Growth
 
-> SCF 7.0 doesn't end at mainnet launch. Teams that ship and demonstrate traction unlock post-launch support including Growth Hack funding, Launch Weeks, BD support, and investment access. This guide covers how to qualify, how to prepare, and how to set yourself up for growth from day one.
+> SCF 7.0 doesn't end at mainnet launch. Teams that ship and demonstrate traction unlock post-launch support including Growth Hack funding, BD support, liquidity grants, public good funding, and investment access. This guide covers how to qualify, how to prepare, and how to set yourself up for growth from day one.
 
 ## What's Available After Launch
 
@@ -9,7 +9,8 @@ SCF 7.0 offers several post-launch programs for teams that complete all four tra
 | Program | What You Get |
 |---------|-------------|
 | **Growth Hack** | Targeted funding and support for user acquisition experiments and repeatable growth loops |
-| **Launch Weeks** | Coordinated ecosystem-wide launch events for visibility across the Stellar community |
+| **Liquidity Grants** | Funding to bootstrap liquidity for DeFi protocols and trading pairs on Stellar |
+| **Public Good Funding** | Support for open-source infrastructure, public goods, and ecosystem-wide tooling |
 | **BD and go-to-market support** | Strategic introductions and go-to-market sprint assistance from SDF |
 | **Agency, distribution, and investment access** | Introductions to marketing partners, ecosystem distribution channels, and investor networks |
 | **Additional Build Awards** | Teams with significant traction can apply for subsequent awards (up to $300K lifetime) |
@@ -104,61 +105,6 @@ The Stellar community is your first distribution channel. Build relationships du
 
 ---
 
-## Preparing Your Growth Hack Application
-
-When you're ready to apply for Growth Hack support, you'll need to demonstrate:
-
-### 1. Traction Evidence
-
-Show that your product is live and being used:
-
-| Metric | What to Show |
-|--------|-------------|
-| On-chain activity | Transaction count, unique wallets, TVL — linked to a block explorer |
-| User growth | MAU trend over at least 2-3 months |
-| Retention | Are users coming back? Show cohort data. |
-| Product usage | Core action completion rate, session frequency |
-
-### 2. Growth Hypotheses
-
-Present 2-3 specific growth experiments you want to run with Growth Hack funding:
-
-**Format:**
-- **Hypothesis:** [What you believe will drive growth]
-- **Experiment:** [What you'll do]
-- **Metric:** [How you'll measure success]
-- **Timeline:** [How long the experiment runs]
-- **Budget:** [What it costs]
-- **Success threshold:** [What number means it worked]
-
-### 3. Unit Economics (If Applicable)
-
-If your product generates revenue or has clear cost-per-user metrics:
-- Cost to acquire a user (CAC)
-- Revenue per user (or value per user to the ecosystem)
-- Payback period
-- Lifetime value estimate
-
-### 4. Scaling Plan
-
-If experiments succeed, how do you scale them?
-- Can the growth channel handle 10x volume?
-- What infrastructure changes are needed?
-- What's the marginal cost of each additional user?
-
----
-
-## Launch Weeks
-
-Launch Weeks are coordinated ecosystem events where multiple SCF projects launch simultaneously for shared visibility. To participate:
-
-- **Have a mainnet-ready product** — Launch Weeks are for live products, not demos
-- **Prepare launch materials** — Blog post, demo video, social media content, documentation
-- **Coordinate with SDF** — Express interest through your SCF contact after completing T3
-- **Be ready for traffic** — Your product should handle a spike in visitors without breaking
-
----
-
 ## Additional Build Awards
 
 Teams that complete all tranches and demonstrate significant traction can apply for subsequent Build Awards. The lifetime cap is $150K standard, with up to $300K available case-by-case for high-traction projects.
@@ -178,8 +124,8 @@ To strengthen a second application:
 | **T0** | Define growth model, identify target metrics, research distribution channels |
 | **T1** | Set up analytics infrastructure, instrument core flows, build referral mechanics |
 | **T2** | Launch testnet to community, collect feedback, start building audience, create public dashboard |
-| **T3** | Launch on mainnet with onboarding flow, begin user acquisition, track metrics, prepare Growth Hack application |
-| **Post-launch** | Apply for Growth Hack, run experiments, apply for Launch Week, pursue additional Build Award if needed |
+| **T3** | Launch on mainnet with onboarding flow, begin user acquisition, track metrics |
+| **Post-launch** | Apply for Growth Hack, run experiments, explore liquidity grants or public good funding, pursue additional Build Award if needed |
 
 ---
 
@@ -192,4 +138,4 @@ To strengthen a second application:
 - [ ] Referral or sharing mechanics built into product
 - [ ] Community engagement ongoing (Discord, devlogs, ecosystem contributions)
 - [ ] Launch materials prepared (blog post, demo video, docs)
-- [ ] Post-launch metrics tracked for at least 2-3 months before applying for Growth Hack
+- [ ] Post-launch metrics tracked for at least 2-3 months before applying for Growth Hack or other post-launch programs

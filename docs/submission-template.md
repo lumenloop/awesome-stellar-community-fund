@@ -304,7 +304,7 @@ The strongest submissions tie their per-tranche budgets directly to the delivera
 - [Growth targets for 3-6 months post-launch]
 - [User acquisition strategy]
 - [Maintenance and support plan]
-- [Interest in SCF post-launch programs: Growth Hack, Launch Weeks, etc.]
+- [Interest in SCF post-launch programs: Growth Hack, liquidity grants, public good funding, etc.]
 
 ---
 

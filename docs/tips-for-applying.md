@@ -121,7 +121,7 @@ Visibility matters — especially for the Open Track, where community vote decid
 
 **Find advocates, not followers.** Your goal is to turn passive observers into people who understand your project and will vouch for it. Share your progress, ask for feedback, and be responsive. An engaged community member who can articulate why your project matters is more valuable than a hundred people who retweeted your launch announcement.
 
-**Get a referral if you can.** SCF 7.0 introduced a verified referral pathway. Referred submissions get stronger trust signals and faster review. SCF alumni, ambassadors, accelerator programs, and official ecosystem partners can refer you. Build those relationships early.
+**Get a referral if you can.** SCF 7.0 introduced a verified referral pathway. Referred submissions get stronger trust signals and faster review. Pilots and SDF staff can refer you. Build those relationships early.
 
 ---
 

@@ -122,7 +122,7 @@ Build Award recipients unlock the Stellar LaunchKit at the Testnet milestone, wh
 
 ### Referral Pathway (New in 7.0)
 
-Trusted ecosystem participants — SCF alumni, ambassadors, accelerator programs, and official partners — can refer incoming teams. Referred teams receive:
+Trusted ecosystem participants — Pilots and SDF staff — can refer incoming teams. Referred teams receive:
 
 - Stronger trust signals during review
 - Faster time-to-decision
@@ -149,7 +149,7 @@ Rounds run approximately every **6 weeks**. Check [communityfund.stellar.org/awa
 | **Prescreening** | Manual review only | AI-powered prescreening for non-referred submissions |
 | **Tranche structure** | Milestone-based (MVP, Testnet, Mainnet) | Four explicit tranches: 10% / 20% / 30% / 40% |
 | **Final milestone** | Mainnet deployment | Mainnet deployment **plus UX readiness** |
-| **Post-launch support** | Limited (LaunchKit, accelerator connections) | Growth Hack program, BD support, Launch Weeks, investment access |
+| **Post-launch support** | Limited (LaunchKit, accelerator connections) | Growth Hack program, BD support, liquidity grants, public good funding, investment access |
 | **Lifetime funding cap** | Up to $150K | Up to $150K standard, up to $300K case-by-case |
 | **Governance** | Category Delegate Panels | Track-specific panels + community vote for Open Track |
 
@@ -246,7 +246,7 @@ Before reaching the review panel, submissions must clear prescreening:
 
 **After you submit:**
 
-- **Seek a referral.** If you know SCF alumni, ambassadors, or ecosystem partners, ask them to refer you through the verified referral pathway. This gives your application a trust signal and faster review.
+- **Seek a referral.** If you know Pilots or SDF staff, ask them to refer you through the verified referral pathway. This gives your application a trust signal and faster review.
 - **Prepare for UX readiness.** Remember that the final tranche now requires functional interfaces and usable onboarding — not just a mainnet deployment. Plan for UX from the start, not as an afterthought.
 - **Plan for growth.** SCF 7.0 offers post-launch support for teams that demonstrate traction. Think beyond launch: what are your adoption targets, growth loops, and metrics?
 
@@ -257,7 +257,8 @@ Before reaching the review panel, submissions must clear prescreening:
 SCF 7.0 extends well beyond the initial Build Award for teams that ship and gain traction:
 
 - **Growth Hack** — Targeted funding and support for user acquisition experiments and repeatable growth loops.
-- **Launch Weeks** — Coordinated ecosystem-wide launch events for visibility.
+- **Liquidity Grants** — Funding to bootstrap liquidity for DeFi protocols and trading pairs on Stellar.
+- **Public Good Funding** — Support for open-source infrastructure, public goods, and ecosystem-wide tooling.
 - **BD and go-to-market support** — Strategic introductions and go-to-market sprint assistance.
 - **Agency, distribution, and investment access** — Introductions to marketing partners, ecosystem distribution channels, and investor networks.
 - **Additional Build Awards** — After completing all tranches, teams with significant traction can apply for subsequent awards.

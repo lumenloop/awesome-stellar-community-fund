@@ -1,6 +1,6 @@
 ---
 name: scf-referral-preparer
-description: "Help teams prepare materials for an SCF referral. Use when a team wants to approach a referrer (SCF Pilot, SDF staff, ambassador, or SCF alumni) with a strong package that makes it easy for the referrer to evaluate and endorse them. Covers the referral form fields, what referrers assess, and how to present your project for referral."
+description: "Help teams prepare materials for an SCF referral. Use when a team wants to approach a referrer (Pilot or SDF staff member) with a strong package that makes it easy for the referrer to evaluate and endorse them. Covers the referral form fields, what referrers assess, and how to present your project for referral."
 ---
 
 # SCF Referral Preparer

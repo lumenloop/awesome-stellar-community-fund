@@ -24,9 +24,6 @@ Referrers are trusted ecosystem contributors who have been vetted and invited in
 
 - **SCF Pilots** — The core group of experienced community members who serve as delegates, reviewers, and governance participants across SCF rounds. Pilots are the most common referrers.
 - **Stellar Development Foundation staff** — SDF team members who work directly with the ecosystem and have visibility into what the network needs.
-- **Stellar Ambassadors** — Regional community leaders recognized by the ecosystem.
-- **SCF alumni** — Teams who have previously received and delivered on SCF awards.
-- **Accelerator programs and official ecosystem partners** — Organizations with established Stellar relationships.
 
 Each referrer receives a **unique referrer code** that they use when endorsing teams. This code ties every referral back to the referrer's track record.
 
@@ -122,7 +119,7 @@ Here's the full flow from the applicant's perspective:
 2. Submit the Interest Form at communityfund.stellar.org
    |
 3. Build a relationship with a potential referrer
-   (SCF alumni, ambassador, accelerator, ecosystem partner)
+   (Pilot or SDF staff member)
    |
 4. Share your project details and ask if they'd be willing to refer you
    |
@@ -161,12 +158,6 @@ The SCF doesn't publish a public list of referrers. But referrers are typically 
 
 - **SCF Pilots.** The most common referrers. Pilots are the highest governance tier in the SCF community — they serve as quarterly delegates on review panels, participate in Pilot-only strategy conversations, and can propose and vote on governance decisions. They're visible in the Stellar Developer Discord, active in round reviews, and deeply familiar with what makes a strong submission. If you're engaged in the ecosystem, you'll encounter Pilots naturally.
 - **SDF staff.** Stellar Development Foundation team members who work directly with ecosystem projects. They have visibility into strategic priorities and what the network needs. SDF employees can refer teams but do not receive financial referral incentives.
-
-Other potential referrers include:
-
-- **Stellar Ambassadors.** Regional community leaders active in local Stellar communities.
-- **SCF alumni with completed awards.** Teams that have delivered all tranches. Check the [SCF Awards page](https://communityfund.stellar.org/awards) for previously funded projects.
-- **Accelerator programs and ecosystem partners.** Organizations with established Stellar relationships.
 
 The best path to finding a referrer is being visibly active in the ecosystem before you need one. Pilots and SDF staff notice teams that contribute authentically — not teams that appear only when they want something.
 

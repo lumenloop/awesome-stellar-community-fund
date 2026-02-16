@@ -18,7 +18,7 @@ Read these in order:
 **After you're funded:**
 
 9. **[Submitting Tranches](submitting-tranches.md)** — How to submit your deliverables at each milestone to unlock tranche payments.
-10. **[Post-Launch and Growth](post-launch-growth.md)** — Prepare for Growth Hack, Launch Weeks, and additional awards.
+10. **[Post-Launch and Growth](post-launch-growth.md)** — Prepare for Growth Hack, liquidity grants, public good funding, and additional awards.
 
 **If you're applying to the RFP Track**, also read:
 - **[RFP Response Guide](rfp-response-guide.md)** — RFP-specific dynamics, spec compliance, DX, and maintenance planning.
@@ -49,5 +49,5 @@ Read these in order:
 | [Proving Traction](proving-traction.md) | Applicants | Metrics, demand signals, adoption targets |
 | [UX Readiness](ux-readiness.md) | Applicants | T3 UX gate requirements |
 | [Submitting Tranches](submitting-tranches.md) | Funded Teams | How to submit deliverables for tranche review |
-| [Post-Launch and Growth](post-launch-growth.md) | Funded Teams | Growth Hack, Launch Weeks, additional awards |
+| [Post-Launch and Growth](post-launch-growth.md) | Funded Teams | Growth Hack, liquidity grants, public good funding, additional awards |
 | [RFP Response Guide](rfp-response-guide.md) | RFP Applicants | RFP-specific response guidance |
