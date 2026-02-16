@@ -44,10 +44,8 @@ See [docs/README.md](docs/README.md) for a suggested reading order.
 |---|---|
 | SCF Homepage | [communityfund.stellar.org](https://communityfund.stellar.org) |
 | SCF Handbook | [stellar.gitbook.io/scf-handbook](https://stellar.gitbook.io/scf-handbook) |
-| Build Track | [communityfund.stellar.org/build](https://communityfund.stellar.org/build) |
 | Awards & Funded Projects | [communityfund.stellar.org/awards](https://communityfund.stellar.org/awards) |
 | Community Voting | [communityfund.stellar.org/vote](https://communityfund.stellar.org/vote) |
-| FAQ | [communityfund.stellar.org/faq](https://communityfund.stellar.org/faq) |
 | Grants & Funding (SDF) | [stellar.org/grants-and-funding](https://stellar.org/grants-and-funding) |
 
 ## Stellar Developer Resources
@@ -71,7 +69,8 @@ See [docs/README.md](docs/README.md) for a suggested reading order.
 | Friendbot (Testnet Faucet) | [friendbot.stellar.org](https://friendbot.stellar.org) | Fund test accounts with 10,000 XLM on Testnet |
 | Scaffold Stellar | [scaffoldstellar.org](https://scaffoldstellar.org) | CLI tools, Rust contract templates, React frontend for full-stack dApps |
 | Freighter Wallet | [freighter.app](https://www.freighter.app) | Official SDF browser extension wallet for development and testing |
-| Albedo | [albedo.link](https://albedo.link) | Delegated signer — no extension needed |
+| Stellar Wallets Kit | [github.com/Creit-Tech/Stellar-Wallets-Kit](https://github.com/Creit-Tech/Stellar-Wallets-Kit) | Unified API to handle all Stellar wallets with a simple interface |
+| Smart Account Kit | [github.com/kalepail/smart-account-kit](https://github.com/kalepail/smart-account-kit) | TS SDK for deploying and managing smart account contracts with passkey auth |
 
 ### Block Explorers
 
@@ -122,7 +121,7 @@ See [docs/README.md](docs/README.md) for a suggested reading order.
 
 | Platform | Link | Description |
 |---|---|---|
-| GalacticTalk | [galactictalk.org](https://galactictalk.org) | Stellar community forum — development, announcements, discussions |
+| Stellar Dev Discord | [discord.gg/stellardev](https://discord.gg/stellardev) | Primary developer hub — SCF discussions, feedback, mentoring, expert guidance |
 | Reddit r/Stellar | [reddit.com/r/Stellar](https://www.reddit.com/r/Stellar/) | Stellar subreddit — news, questions, ecosystem updates |
 | Stellar Global | [stellar.global](https://stellar.global) | Community org focused on education and advocacy worldwide |
 
