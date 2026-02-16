@@ -324,7 +324,7 @@ SCF 7.0, announced January 16, 2026, is the most structural redesign since v5.0:
 - **Three Build Award tracks:**
   - **Integration Track** — For teams building end-user applications that integrate an existing Stellar building block (DeFi protocol, wallet SDK, anchor service). Reviewed by rotating delegate panel. Eligible building blocks decided by community vote each quarter.
   - **Open Track** — For experienced teams building novel protocols or infrastructure. Decided by community vote via Neural Quorum Governance.
-  - **RFP Track** — For developers responding to published Requests for Proposals targeting identified ecosystem gaps. Reviewed by domain-expert delegate panels.
+  - **RFP Track** — For developers responding to published Requests for Proposals targeting identified developer tooling and infrastructure gaps. Reviewed by domain-expert delegate panels.
 - **Instawards** — Replaced Kickstart. Decentralized, ambassador-led awards of up to $15K for very early-stage teams. Regional Stellar Ambassador chapters recommend projects, subject to SDF approval.
 - **Referral system** — Trusted ecosystem participants (Pilots and SDF staff) can refer teams. Referred submissions get stronger trust signals and faster review. Referrers earn recognition and financial incentives.
 - **AI-powered prescreening** — Non-referred submissions go through automated prescreening to filter low-signal applications.

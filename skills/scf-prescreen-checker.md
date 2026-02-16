@@ -95,7 +95,7 @@ Check for common disqualifiers:
 
 - [ ] Budget over $150K without prior SCF award
 - [ ] Large marketing line items
-- [ ] No technical deliverable in T0
+- [ ] No technical deliverable in T1
 - [ ] Team members have no verifiable identity or history
 - [ ] Project description is copied from another submission or website
 - [ ] Submission reads like a whitepaper rather than a grant application

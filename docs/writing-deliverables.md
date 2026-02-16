@@ -14,14 +14,16 @@ Every Build Award distributes funding across these milestones:
 
 | Tranche | Budget | Milestone | What You Prove |
 |---------|--------|-----------|---------------|
-| 0 | 10% | Award approval | Proof of intent |
+| 0 | 10% | Award approval | Paid automatically when your award is approved — no deliverables to submit |
 | 1 | 20% | MVP | Core Stellar/Soroban integration works |
 | 2 | 30% | Testnet | Product is testable end-to-end |
 | 3 | 40% | Mainnet + UX readiness | Product is live, usable, and discoverable |
 
+**T0 is not a deliverable milestone.** The 10% T0 payment is released upon award approval (after passing community vote). You do not submit deliverables for T0. Your first deliverable submission is T1.
+
 **A note on tranches:** MVP, Testnet, and Mainnet are the official tranche names, but they each represent applicant-defined milestones. You decide what the specific deliverables are within each tranche. "MVP" doesn't have to mean a traditional minimum viable product, and "Testnet" doesn't have to be exclusively about a testnet deployment. What matters is that each tranche represents a meaningful, verifiable step forward — the deliverables within it should fit your project, not be forced into rigid categories.
 
-Your job is to define concrete deliverables under each tranche that a reviewer can verify without ambiguity.
+Your job is to define concrete deliverables for T1, T2, and T3 that a reviewer can verify without ambiguity.
 
 ### Tip: Consider Tightening Your Scope
 
@@ -38,41 +40,25 @@ A reviewer should be able to look at an artifact — a deployed contract, a work
 **Weak:** "Build smart contract logic"
 **Strong:** "Deploy token-swap Soroban contract to testnet with passing unit tests; share contract address and GitHub repo link"
 
-### 2. Tranche 0 must include a Stellar/Soroban technical component
+### 2. Each tranche should build visibly on the last
 
-This is your proof of intent. Reviewers look at this deliverable closely. It must show that your team can interact with Stellar or Soroban technically — not just produce a design doc.
-
-**Good Tranche 0 deliverables:**
-- Deploy a basic Soroban smart contract to testnet that implements your core operation
-- Build a working prototype that reads from / writes to the Stellar network
-- Create an SDK integration proof-of-concept with a working code sample
-
-**Bad Tranche 0 deliverables:**
-- "Research and planning phase"
-- "Write technical specification"
-- "Set up development environment"
-
-### 3. Each tranche should build visibly on the last
-
-Reviewers should see a clear progression: intent, then working core, then testable product, then production-ready launch. Avoid deliverables that jump ahead or repeat previous work.
+Reviewers should see a clear progression from T1 through T3: working core, then testable product, then production-ready launch. Avoid deliverables that jump ahead or repeat previous work.
 
 **Good progression:**
-- T0: Soroban contract deployed to testnet with core function
-- T1: MVP app with wallet connection, contract interaction, and basic UI
+- T1: Soroban contract deployed to testnet with core function, MVP app with wallet connection and basic UI
 - T2: Full feature set on testnet, shared with community on Discord for feedback
 - T3: Mainnet deployment with onboarding flow, documentation, and usage dashboard
 
 **Bad progression:**
-- T0: "Research"
 - T1: "Continue development"
 - T2: "More development"
 - T3: "Launch"
 
-### 4. Deliverables should be scoped to the tranche timeline
+### 3. Deliverables should be scoped to the tranche timeline
 
 Each tranche represents roughly 4-6 weeks of work. If a single deliverable would take 3 months, it's too big — break it down. If you have 10 deliverables for a single tranche, consolidate.
 
-### 5. Include the verification method
+### 4. Include the verification method
 
 For each deliverable, state how a reviewer will confirm it's done. This builds trust and speeds up tranche approval.
 
@@ -94,14 +80,13 @@ What does "done" look like at mainnet launch? Write that down first.
 
 ### Step 2: Identify the core Stellar/Soroban interaction
 
-This is the technical heart of your project. It goes in Tranche 0 or Tranche 1.
+This is the technical heart of your project. It should be front and center in your T1 deliverables.
 
 ### Step 3: Work backward from mainnet
 
 - Mainnet (T3): What must be true for users to use your product on mainnet? UX readiness, documentation, onboarding.
 - Testnet (T2): What must be testable? Full feature set, community feedback.
-- MVP (T1): What's the minimum that demonstrates your core value proposition works?
-- Proof of intent (T0): What's the smallest technical proof that your Stellar integration is real?
+- MVP (T1): What's the minimum that demonstrates your core value proposition works on Stellar?
 
 ### Step 4: Assign 2-4 deliverables per tranche
 

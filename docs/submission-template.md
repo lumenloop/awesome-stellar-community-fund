@@ -317,7 +317,7 @@ The strongest submissions tie their per-tranche budgets directly to the delivera
 - [ ] **Architecture:** Detailed, with diagrams, data flows, and security section
 - [ ] **Team:** Named members with relevant experience and links
 - [ ] **Traction:** Specific metrics or concrete demand signals
-- [ ] **Deliverables:** 2-4 per tranche, verifiable, with T0 including Stellar/Soroban technical work
+- [ ] **Deliverables:** 2-4 per tranche (T1–T3), verifiable, with T1 including Stellar/Soroban technical work
 - [ ] **Budget:** Bottom-up, proportional, mapped to tranches
 - [ ] **UX readiness:** Planned for in T3 deliverables
 - [ ] **Self-contained:** Submission makes sense without visiting external links

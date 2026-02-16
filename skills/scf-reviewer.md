@@ -72,7 +72,7 @@ Covers six areas:
 | **Technical Architecture** | Does the project use Soroban smart contracts? Is the design sound? Is Stellar core or shoehorned? Does the architecture include data flows, security, and state management? |
 | **Team Readiness** | Are team members named and credible? Prior Stellar/Soroban experience? Can they execute on this specific scope? |
 | **Traction** | Organic demand signals, adoption metrics, existing user base? On-chain metrics verifiable? Adoption targets specific and measurable? |
-| **Budget & Deliverables** | Is the budget bottom-up and proportional to scope? Are milestones concrete and verifiable? Does T0 include Stellar/Soroban technical work? |
+| **Budget & Deliverables** | Is the budget bottom-up and proportional to scope? Are milestones concrete and verifiable? Does T1 include Stellar/Soroban technical work? |
 | **Ecosystem Commitment** | Long-term Stellar alignment or chain-hopping risk? Maintenance plan? Post-launch growth strategy? |
 
 ## Output Formats

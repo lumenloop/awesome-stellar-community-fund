@@ -35,8 +35,8 @@ Pull directly from your milestone plan:
 
 | Tranche | Deliverables |
 |---------|-------------|
-| T0 (10%) | Soroban contract POC, architecture doc |
-| T1 (20%) | MVP app with wallet integration, basic UI |
+| T0 (10%) | Paid on award approval — no deliverables |
+| T1 (20%) | MVP app with wallet integration, Soroban contract POC, basic UI |
 | T2 (30%) | Full testnet deployment, integration tests, community feedback |
 | T3 (40%) | Mainnet launch, onboarding UX, docs, dashboard |
 
@@ -117,12 +117,12 @@ Your budget should map cleanly to the tranche structure. Reviewers check that th
 
 | Tranche | % of Budget | What the Money Covers |
 |---------|-------------|----------------------|
-| T0 (10%) | $X | POC development, initial architecture |
+| T0 (10%) | $X | Paid on award approval — kickoff funding |
 | T1 / MVP (20%) | $X | Core features working: first meaningful build |
 | T2 / Testnet (30%) | $X | Feature-complete build, testable, community feedback |
 | T3 / Mainnet (40%) | $X | Production launch, UX readiness, docs, monitoring |
 
-The percentages are fixed (10/20/30/40), so your deliverables per tranche should justify receiving that share. If T0 only requires a weekend of work, your budget may be too high overall.
+The percentages are fixed (10/20/30/40). T0 is paid automatically upon approval. For T1–T3, your deliverables per tranche should justify receiving that share.
 
 ---
 
@@ -178,7 +178,7 @@ These are not hard rules. If your team is in a high-cost market, higher rates ar
 | Requesting $150K for a simple integration | Signals grant extraction. Right-size to scope. |
 | Round numbers with no breakdown | "$50,000 for development" tells reviewers nothing. |
 | No per-tranche budget mapping | Reviewers can't verify if tranche payments match the work. |
-| Paying for "research" in T0 | T0 is proof of intent. The money should fund technical work, not planning. |
+| Large "research" or "planning" line items | SCF funds building. Keep research and planning costs minimal. |
 | Including "marketing" as a major line item | SCF funds building, not marketing. Small community/docs budget is fine. Large marketing spend is a red flag. |
 | Double-counting LaunchKit benefits | If you'll get audit credits through LaunchKit at T2, don't also budget $30K for an audit. |
 | Massive contingency buffer | More than 5% contingency looks like padding. |
@@ -222,8 +222,8 @@ The lifetime cap is $150K standard, with up to $300K case-by-case for projects w
 
 | Tranche | Budget | Work Covered |
 |---------|--------|-------------|
-| T0 (10%) | $8,500 | Soroban escrow contract POC on testnet, architecture finalized |
-| T1 (20%) | $17,000 | MVP mobile app with wallet, basic anchor deposit flow |
+| T0 (10%) | $8,500 | Paid on award approval — kickoff funding |
+| T1 (20%) | $17,000 | Soroban escrow contract POC, MVP mobile app with wallet, basic anchor deposit flow |
 | T2 (30%) | $25,500 | Full testnet app, KYC, tx history, community testing, security review |
 | T3 (40%) | $34,000 | Mainnet launch, onboarding UX, docs, monitoring dashboard |
 

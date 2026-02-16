@@ -21,7 +21,7 @@ Build Awards are paid in four tranches:
 
 | Tranche | % of Award | When Released |
 |---|---|---|
-| T0 | 10% | After proof of intent is approved |
+| T0 | 10% | Paid automatically on award approval |
 | T1 | 20% | After T1 deliverables are reviewed and approved |
 | T2 | 30% | After T2 deliverables are reviewed and approved |
 | T3 | 40% | After final deliverables including UX readiness are approved |
@@ -93,15 +93,14 @@ Small deviations are normal and expected. Reviewers want transparency, not perfe
 
 ### Step 4: Tranche-Specific Requirements
 
-#### T0: Proof of Intent
-- Must include a technical deliverable interacting with Stellar or Soroban
-- Typically: deployed testnet contract, working prototype, or functional proof of concept
-- Not acceptable: design docs, research papers, or environment setup alone
-- This is the smallest tranche (10%) — scope should be focused
+#### T0: Award Approval
+- T0 (10%) is paid automatically when the award is approved — no deliverables to submit
+- No tranche report is needed for T0
 
 #### T1: Core Build
+- This is the first tranche that requires a deliverable submission
+- Must include a technical deliverable interacting with Stellar or Soroban
 - Primary development work
-- Demonstrate meaningful progress from T0
 - Show that the technical approach is viable and scaling
 
 #### T2: Feature Complete

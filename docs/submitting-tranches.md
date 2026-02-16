@@ -4,16 +4,18 @@
 
 ## How Tranche Review Works
 
-After your Build Award is approved, funding is released in four tranches tied to milestones:
+After your Build Award is approved, funding is released in tranches tied to milestones:
 
 | Tranche | % of Budget | Milestone |
 |---------|-------------|-----------|
-| T0 | 10% | Award approval — proof of intent |
+| T0 | 10% | Paid automatically upon award approval — no deliverables to submit |
 | T1 | 20% | MVP |
 | T2 | 30% | Testnet (also unlocks Stellar LaunchKit) |
 | T3 | 40% | Mainnet + UX readiness |
 
-To receive each tranche payment, you submit your deliverables for review. A reviewer checks that you've completed what you promised in your application. If everything checks out, your payment is released. If not, you'll get feedback on what's missing before you can resubmit.
+**T0 (10%) is released when your award is approved** — there are no deliverables to submit for T0. Your first deliverable submission is T1.
+
+For T1, T2, and T3, you submit your deliverables for review. A reviewer checks that you've completed what you promised in your application. If everything checks out, your payment is released. If not, you'll get feedback on what's missing before you can resubmit.
 
 The smoother and clearer your submission, the faster your payment. Ambiguous or incomplete submissions create back-and-forth that delays everyone.
 
@@ -55,44 +57,23 @@ If you deviated from your original plan — different tech stack, changed scope,
 
 ## What to Submit for Each Tranche
 
-### T0 — Proof of Intent
-
-This is your first submission after being funded. It proves your team can interact with Stellar/Soroban technically and has started building.
-
-**What reviewers expect:**
-- A working technical artifact that touches Stellar or Soroban (not just a doc or plan)
-- Evidence that development has started in earnest
-
-**Strong T0 submissions include:**
-- Soroban contract deployed to testnet with contract address and GitHub link
-- Working prototype that reads from or writes to the Stellar network
-- SDK integration proof-of-concept with a demo or screen recording
-- Architecture document alongside the technical artifact (not instead of it)
-
-**Common T0 delays:**
-- Submitting only a design doc or spec with no code
-- No testnet contract address or working demo
-- GitHub repo is empty or only has boilerplate
-
 ### T1 — MVP
 
-Your core functionality should be working. This doesn't need to be polished, but it needs to demonstrate that the fundamental value proposition works.
+This is your first deliverable submission after being funded (T0 is paid on approval with no submission required). Your core functionality should be working. This doesn't need to be polished, but it needs to demonstrate that the fundamental value proposition works on Stellar.
 
 **What reviewers expect:**
 - Core feature(s) functional and demonstrable
 - Stellar/Soroban integration visible in the working product
-- Progress clearly beyond T0
 
 **Strong T1 submissions include:**
 - Working app or interface (even if rough) with core user flow functional
 - Screen recording or live demo URL showing the feature in action
-- Smart contracts with expanded functionality beyond T0, with tests
+- Smart contracts deployed to testnet with tests
 - Brief written summary of what was built, what works, and what's next
 
 **Common T1 delays:**
 - No way to see the product working (no demo, no recording, no URL)
 - Core Stellar integration isn't visible in the deliverable
-- Deliverables feel like a continuation of T0 rather than a step forward
 
 ### T2 — Testnet
 

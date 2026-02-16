@@ -4,7 +4,7 @@
 
 ## What the RFP Track Is
 
-RFPs are specific tooling, infrastructure, or ecosystem capabilities that have been identified as strategic gaps in the Stellar ecosystem. The SCF publishes RFPs based on ecosystem needs, and teams respond with proposals to build the requested capability.
+RFPs are requests for specific **developer tooling and infrastructure** that have been identified as strategic gaps in the Stellar ecosystem. The SCF publishes RFPs based on ecosystem needs — things like SDKs, indexers, testing frameworks, and other dev infrastructure — and teams respond with proposals to build the requested capability.
 
 **Key differences from other tracks:**
 
@@ -179,8 +179,8 @@ RFP deliverables should emphasize different things than Integration or Open Trac
 
 | Tranche | Focus for RFP Projects |
 |---------|----------------------|
-| **T0 (10%)** | Core functionality proof-of-concept. Show the hardest technical piece working. |
-| **T1 (20%)** | Functional prototype with basic API/CLI. A developer should be able to try it. |
+| **T0 (10%)** | Paid on award approval — no deliverables to submit. |
+| **T1 (20%)** | Core functionality proof-of-concept with basic API/CLI. Show the hardest technical piece working. A developer should be able to try it. |
 | **T2 (30%)** | Feature-complete on testnet with documentation draft, integration tests, and example usage. |
 | **T3 (40%)** | Production-ready with full documentation, CI/CD, published package, and maintenance plan active. |
 

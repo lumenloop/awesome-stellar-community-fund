@@ -76,8 +76,8 @@ Produce a per-deliverable breakdown:
 
 | Tranche | Deliverable | Role | Rate | Effort | Cost |
 |---|---|---|---|---|---|
-| T0 | Soroban contract MVP | Senior dev | $4,500/wk | 3 weeks | $13,500 |
-| T0 | Testnet deployment | Senior dev | $4,500/wk | 1 week | $4,500 |
+| T1 | Soroban contract MVP | Senior dev | $4,500/wk | 3 weeks | $13,500 |
+| T1 | Testnet deployment | Senior dev | $4,500/wk | 1 week | $4,500 |
 | T1 | Backend API | Backend dev | $3,500/wk | 3 weeks | $10,500 |
 | T1 | Frontend prototype | Frontend dev | $3,000/wk | 2 weeks | $6,000 |
 | ... | ... | ... | ... | ... | ... |
@@ -91,13 +91,13 @@ SCF Build Awards use a 10% / 20% / 30% / 40% tranche structure:
 
 | Tranche | % of Total | Purpose |
 |---|---|---|
-| T0 | 10% | Proof of intent — technical deliverable on Stellar/Soroban |
-| T1 | 20% | Core build — primary development work |
+| T0 | 10% | Paid on award approval — no deliverables required |
+| T1 | 20% | Core build — first technical deliverable on Stellar/Soroban |
 | T2 | 30% | Feature complete — full functionality, audit readiness |
 | T3 | 40% | Production ready — mainnet, UX, documentation, launch |
 
 **Mapping rules:**
-- T0 budget should be ~10% of total. If T0 work costs more, redistribute other tranches
+- T0 (10%) is paid automatically on approval — no deliverables to map
 - T3 is the largest tranche and should include UX readiness, documentation, and launch work
 - Each tranche should have enough budget to cover its deliverables
 - The tranche amounts don't need to be exact percentages — close is fine
@@ -109,7 +109,7 @@ Produce a tranche summary:
 
 | Tranche | Budget | % of Total | Key Deliverables |
 |---|---|---|---|
-| T0 | $X,XXX | ~10% | [Deliverable names] |
+| T0 | $X,XXX | ~10% | Paid on approval |
 | T1 | $XX,XXX | ~20% | [Deliverable names] |
 | T2 | $XX,XXX | ~30% | [Deliverable names] |
 | T3 | $XX,XXX | ~40% | [Deliverable names] |

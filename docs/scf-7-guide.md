@@ -57,11 +57,10 @@ SCF 7.0 reorganizes the Build Award into three specialized tracks, plus a decent
 
 ### 3. RFP Track
 
-**Who it's for:** Developers responding to an active SCF Request for Proposals — specific tooling, infrastructure, or ecosystem capabilities that have been identified as strategic gaps.
+**Who it's for:** Developers responding to an active SCF Request for Proposals — specific **developer tooling and infrastructure** that have been identified as strategic gaps.
 
-- RFPs are scoped and published based on identified ecosystem needs.
+- RFPs target dev tooling needs: SDKs, indexers, testing frameworks, and other developer infrastructure.
 - Submissions are reviewed and selected by a panel of SCF Pilot delegates with relevant technical and domain expertise.
-- Ideal for developer tooling, SDKs, indexers, testing frameworks, and other infrastructure explicitly requested by the ecosystem.
 
 ### 4. Instawards
 
@@ -90,10 +89,12 @@ Funding is distributed across four milestones to incentivize execution:
 
 | Tranche | % of Budget | Milestone |
 |---------|-------------|-----------|
-| Tranche 0 | 10% | Award approval — proof of intent |
+| Tranche 0 | 10% | Paid on award approval — no deliverables required |
 | Tranche 1 | 20% | MVP deliverable complete |
 | Tranche 2 | 30% | Testnet launch (also unlocks Stellar LaunchKit) |
 | Tranche 3 | 40% | Mainnet launch with UX readiness |
+
+**T0 is an upfront payment.** The 10% T0 tranche is released when your award is approved (after passing community vote). You do not submit deliverables for T0 — your first deliverable submission is T1.
 
 **Important change in 7.0:** The final tranche now requires **UX readiness** — clear onboarding flows, functional and tested interfaces, and basic usability validation. Mainnet deployment alone is no longer sufficient.
 

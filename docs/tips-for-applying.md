@@ -157,9 +157,9 @@ SCF 7.0 has three Build Award tracks. Applying to the wrong one is a fast path t
 
 **Open Track** — You're building something novel — a new protocol, infrastructure, or on-chain primitive. No requirement to integrate a pre-defined building block. Goes to community vote.
 
-**RFP Track** — You're responding to a published Request for Proposals targeting a specific ecosystem gap. Address every requirement in the RFP.
+**RFP Track** — You're responding to a published Request for Proposals targeting a specific developer tooling or infrastructure gap. Address every requirement in the RFP.
 
-**Quick test:** Is your project primarily about bringing an existing Stellar component to users? Integration Track. Is it about building something new for the ecosystem? Open Track. Is it answering a specific published need? RFP Track.
+**Quick test:** Is your project primarily about bringing an existing Stellar component to users? Integration Track. Is it about building something new for the ecosystem? Open Track. Is it building developer tooling or infrastructure to fill a published need? RFP Track.
 
 See [SCF 7.0 Guide](scf-7-guide.md) for detailed track descriptions and tips.
 
