@@ -16,6 +16,7 @@ Reusable AI skills for SCF applications — reviewing, drafting, budgeting, pres
 - **[scf-tranche-reporter](skills/scf-tranche-reporter.md)** — Write tranche submission reports with deliverable evidence and completion documentation.
 - **[scf-competitor-analyst](skills/scf-competitor-analyst.md)** — Research the competitive landscape and articulate differentiation.
 - **[scf-referral-preparer](skills/scf-referral-preparer.md)** — Prepare materials for an SCF referral from a Pilot or SDF staff member.
+- **[scf-round-reviewer](skills/scf-round-reviewer.md)** — Review and rank an entire Build Award round: batch review, calibration, and final ranking.
 
 ### [docs/](docs/)
 

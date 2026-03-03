@@ -8,17 +8,17 @@ Read these in order:
 2. **[Tips for Applying](tips-for-applying.md)** — Data-driven advice on what gets funded and what gets rejected.
 3. **[Getting a Referral](getting-a-referral.md)** — How the referral program works and how to approach it without burning relationships.
 4. **[Interest Form Tips](interest-form-tips.md)** — Write a strong Interest Form to get invited to apply.
-3. **[Submission Template](submission-template.md)** — Fill-in-the-blank template connecting all guides into one draft.
-4. **[Technical Architecture](technical-architecture.md)** — Build your architecture section with specifics reviewers want.
-5. **[Writing Deliverables](writing-deliverables.md)** — Structure deliverables across the four tranches.
-6. **[Writing Budgets](writing-budgets.md)** — Build a bottom-up, proportional budget.
-7. **[Proving Traction](proving-traction.md)** — Present metrics, demand signals, and adoption targets.
-8. **[UX Readiness](ux-readiness.md)** — Understand the T3 UX gate and plan for it from day one.
+5. **[Submission Template](submission-template.md)** — Fill-in-the-blank template connecting all guides into one draft.
+6. **[Technical Architecture](technical-architecture.md)** — Build your architecture section with specifics reviewers want.
+7. **[Writing Deliverables](writing-deliverables.md)** — Structure deliverables across the three milestones (MVP, Testnet, Mainnet).
+8. **[Writing Budgets](writing-budgets.md)** — Build a bottom-up, proportional budget.
+9. **[Proving Traction](proving-traction.md)** — Present metrics, demand signals, and adoption targets.
+10. **[UX Readiness](ux-readiness.md)** — Understand the T3 UX gate and plan for it from day one.
 
 **After you're funded:**
 
-9. **[Submitting Tranches](submitting-tranches.md)** — How to submit your deliverables at each milestone to unlock tranche payments.
-10. **[Post-Launch and Growth](post-launch-growth.md)** — Prepare for Growth Hack, Launch Weeks, and additional awards.
+11. **[Submitting Tranches](submitting-tranches.md)** — How to submit your deliverables at each milestone to unlock tranche payments.
+12. **[Post-Launch and Growth](post-launch-growth.md)** — Prepare for Growth Hack, Launch Weeks, and additional awards.
 
 **If you're applying to the RFP Track**, also read:
 - **[RFP Response Guide](rfp-response-guide.md)** — RFP-specific dynamics, spec compliance, DX, and maintenance planning.
@@ -27,7 +27,8 @@ Read these in order:
 
 1. **[SCF 7.0 Guide](scf-7-guide.md)** — Program context and track definitions.
 2. **[SCF Reviewer Skill](../skills/scf-reviewer.md)** — Evaluation framework, track weighting, output formats, and verification requirements.
-3. **Reference as needed:** Use the applicant guides as benchmarks for "what good looks like" — the reviewer skill links to each one.
+3. **[SCF Round Reviewer Skill](../skills/scf-round-reviewer.md)** — Review and rank an entire Build Award round: batch review, calibration, and final ranking.
+4. **Reference as needed:** Use the applicant guides as benchmarks for "what good looks like" — the reviewer skill links to each one.
 
 ## Background and Research
 
@@ -44,7 +45,7 @@ Read these in order:
 | [Interest Form Tips](interest-form-tips.md) | Applicants | How to pass the first filter |
 | [Submission Template](submission-template.md) | Applicants | Full application draft template |
 | [Technical Architecture](technical-architecture.md) | Applicants | Architecture section best practices |
-| [Writing Deliverables](writing-deliverables.md) | Applicants | Tranche-based deliverable structuring |
+| [Writing Deliverables](writing-deliverables.md) | Applicants | Milestone-based deliverable structuring |
 | [Writing Budgets](writing-budgets.md) | Applicants | Bottom-up budget construction |
 | [Proving Traction](proving-traction.md) | Applicants | Metrics, demand signals, adoption targets |
 | [UX Readiness](ux-readiness.md) | Applicants | T3 UX gate requirements |

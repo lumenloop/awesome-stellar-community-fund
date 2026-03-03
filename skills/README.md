@@ -14,6 +14,7 @@ This folder contains reusable skills for the Stellar Community Fund (SCF) — co
 | [scf-tranche-reporter](scf-tranche-reporter.md) | Help funded teams write tranche submission reports with deliverable documentation, completion evidence, and the format reviewers expect. |
 | [scf-competitor-analyst](scf-competitor-analyst.md) | Analyze the competitive landscape — similar projects on Stellar and other chains — and articulate differentiation for the application. |
 | [scf-referral-preparer](scf-referral-preparer.md) | Prepare materials for an SCF referral. Covers what referrers evaluate and assembles a package that makes it easy for a Pilot or SDF staff member to endorse the team. |
+| [scf-round-reviewer](scf-round-reviewer.md) | Review and rank an entire SCF Build Award round end-to-end. Covers data collection, categorization, parallel batch review with 6-dimension scoring, cross-batch calibration, referral adjustments, final ranking, and PDF generation. |
 
 ## Usage
 
