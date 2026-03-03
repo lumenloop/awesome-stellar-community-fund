@@ -46,23 +46,23 @@ If the answer is no, your UX is not ready.
 
 The biggest mistake teams make is treating UX as a final polish step. If you wait until T3 to think about usability, you'll either rush it or fail the gate.
 
-### During T0 (Proof of Intent)
+### Before You Start Building
 
 - **Define your core user flow.** Before you write a line of code, sketch the path from "user lands on your site" to "user completes the key action." This can be rough — napkin sketches or wireframes.
 - **Identify UX-critical decisions early.** Custodial vs non-custodial wallet? SEP-24 interactive flow vs embedded? These choices shape your entire UX.
 
-### During T1 (MVP)
+### During MVP (T1)
 
 - **Build the UI alongside the logic.** Don't build a backend-only MVP and plan to add UI later. Your MVP should be usable, even if ugly.
 - **Test with at least 2-3 people outside your team.** Watch them try to use it. Note where they get stuck. Fix those points.
 
-### During T2 (Testnet)
+### During Testnet (T2)
 
 - **Share your testnet build with the Stellar Discord community.** Ask for feedback in #scf-general or #build. Community feedback is both useful and visible to reviewers.
 - **Refine your onboarding flow.** The testnet version should have a complete (even if simplified) onboarding path.
 - **Document known UX gaps.** If something is rough, acknowledge it in your tranche submission and explain how you'll fix it by T3.
 
-### During T3 (Mainnet + UX Readiness)
+### During Mainnet (T3) + UX Readiness
 
 - **Conduct a usability walkthrough.** Record yourself or a test user going through the entire flow from scratch. This recording can be part of your tranche submission.
 - **Write user-facing documentation.** FAQ, getting started guide, or in-app tooltips.

@@ -173,12 +173,12 @@ To strengthen a second application:
 
 ## Timeline: Growth Planning Across Tranches
 
-| Tranche | Growth Actions |
-|---------|---------------|
-| **T0** | Define growth model, identify target metrics, research distribution channels |
-| **T1** | Set up analytics infrastructure, instrument core flows, build referral mechanics |
-| **T2** | Launch testnet to community, collect feedback, start building audience, create public dashboard |
-| **T3** | Launch on mainnet with onboarding flow, begin user acquisition, track metrics, prepare Growth Hack application |
+| Phase | Growth Actions |
+|-------|---------------|
+| **Pre-build** | Define growth model, identify target metrics, research distribution channels |
+| **MVP (T1)** | Set up analytics infrastructure, instrument core flows, build referral mechanics |
+| **Testnet (T2)** | Launch testnet to community, collect feedback, start building audience, create public dashboard |
+| **Mainnet (T3)** | Launch on mainnet with onboarding flow, begin user acquisition, track metrics, prepare Growth Hack application |
 | **Post-launch** | Apply for Growth Hack, run experiments, apply for Launch Week, pursue additional Build Award if needed |
 
 ---

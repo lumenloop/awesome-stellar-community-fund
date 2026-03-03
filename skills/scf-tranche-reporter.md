@@ -17,17 +17,19 @@ Helps funded SCF Build Award teams write tranche submission reports that clearly
 
 ## How Tranche Review Works
 
-Build Awards are paid in four tranches:
+Build Awards are paid in four tranches tied to three milestones:
 
 | Tranche | % of Award | When Released |
 |---|---|---|
-| T0 | 10% | After proof of intent is approved |
-| T1 | 20% | After T1 deliverables are reviewed and approved |
-| T2 | 30% | After T2 deliverables are reviewed and approved |
-| T3 | 40% | After final deliverables including UX readiness are approved |
+| T0 | 10% | Automatically on award approval — no deliverables required |
+| T1 | 20% | After MVP milestone deliverables are reviewed and approved |
+| T2 | 30% | After Testnet milestone deliverables are reviewed and approved |
+| T3 | 40% | After Mainnet milestone deliverables (including UX readiness) are approved |
 
 **Key facts:**
-- Each tranche submission is reviewed by an SCF reviewer (often a Pilot or delegate)
+- T0 is automatic — you receive 10% as soon as your project is approved
+- For T1, T2, and T3, you submit milestone deliverables for review
+- Each submission is reviewed by an SCF reviewer (often a Pilot or delegate)
 - The reviewer checks whether each deliverable meets its stated completion criteria
 - If deliverables are incomplete or evidence is insufficient, the team is asked to revise
 - Delays in tranche approval are most commonly caused by insufficient documentation, not incomplete work
@@ -91,28 +93,23 @@ If anything changed from the original plan:
 
 Small deviations are normal and expected. Reviewers want transparency, not perfection. What causes problems is undisclosed changes or missing deliverables with no explanation.
 
-### Step 4: Tranche-Specific Requirements
+### Step 4: Milestone-Specific Requirements
 
-#### T0: Proof of Intent
-- Must include a technical deliverable interacting with Stellar or Soroban
-- Typically: deployed testnet contract, working prototype, or functional proof of concept
+#### T1: MVP
+- Must include a technical deliverable interacting with Stellar or Soroban — this is your proof of intent
+- Core functionality should be demonstrable
+- Typically: deployed testnet contract, working prototype, or functional proof of concept alongside working app
 - Not acceptable: design docs, research papers, or environment setup alone
-- This is the smallest tranche (10%) — scope should be focused
 
-#### T1: Core Build
-- Primary development work
-- Demonstrate meaningful progress from T0
-- Show that the technical approach is viable and scaling
-
-#### T2: Feature Complete
-- All core functionality should be working
+#### T2: Testnet
+- All core functionality should be working on testnet
 - Audit readiness (if applicable — LaunchKit audit credits unlock at T2)
 - Integration testing complete
-- This is where the project should be functionally complete, even if not yet production-ready
+- This is where the project should be functionally complete and testable, even if not yet production-ready
 
-#### T3: Production Ready
+#### T3: Mainnet
 - **UX readiness is mandatory** — Functional interfaces, usable onboarding, documentation for end users
-- Mainnet deployment (if applicable)
+- Mainnet deployment
 - Comprehensive documentation
 - Launch readiness — the project should be usable by its target audience
 - Include adoption metrics or launch plan
@@ -173,7 +170,7 @@ Structure the tranche submission report clearly.
 | Vague completion evidence ("see repo") | Point to specific files, commits, and test results |
 | Missing deliverables with no explanation | Address every deliverable — even if incomplete, explain status |
 | Demo not reproducible | Record a backup video; don't rely solely on live URLs |
-| UX not ready at T3 | Plan UX work from T1, not as a T3 afterthought |
+| UX not ready at T3 | Plan UX work from MVP, not as a Mainnet afterthought |
 | Scope changes not disclosed | Document any changes proactively in the submission |
 
 ## What Not to Do

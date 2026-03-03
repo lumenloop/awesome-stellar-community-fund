@@ -80,20 +80,22 @@ SCF 7.0 reorganizes the Build Award into three specialized tracks, plus a decent
 ### Build Award (Integration, Open, and RFP Tracks)
 
 - **Maximum:** Up to **$150,000 in XLM** per award.
-- **Duration:** Intended to cover approximately 6 months of development costs through mainnet launch.
+- **Duration:** Intended to cover up to approximately 4 months of development costs through mainnet launch.
 - **Lifetime cap:** Up to $150K across all awards. Projects exceeding this may be eligible for additional funding on a case-by-case basis, up to a $300K lifetime maximum.
 - **XLM valuation:** Calculated using the CF Stellar Lumens-Dollar Settlement Price on the payment date, not at the time of application.
 
-### Milestone-Based Tranches
+### Milestones and Tranches
 
-Funding is distributed across four milestones to incentivize execution:
+Applicants divide their project into **three milestones** (MVP, Testnet, Mainnet). Funding is distributed across **four tranches** tied to these milestones:
 
-| Tranche | % of Budget | Milestone |
-|---------|-------------|-----------|
-| Tranche 0 | 10% | Award approval — proof of intent |
-| Tranche 1 | 20% | MVP deliverable complete |
-| Tranche 2 | 30% | Testnet launch (also unlocks Stellar LaunchKit) |
-| Tranche 3 | 40% | Mainnet launch with UX readiness |
+| Tranche | % of Budget | When Released |
+|---------|-------------|--------------|
+| T0 | 10% | Automatically on award approval |
+| T1 | 20% | MVP milestone complete |
+| T2 | 30% | Testnet milestone complete (also unlocks Stellar LaunchKit) |
+| T3 | 40% | Mainnet milestone complete with UX readiness |
+
+T0 is paid automatically when the project is approved — no deliverables required. The three milestones (MVP, Testnet, Mainnet) are symbolic names for the applicant-defined deliverable groups that trigger payments T1, T2, and T3.
 
 **Important change in 7.0:** The final tranche now requires **UX readiness** — clear onboarding flows, functional and tested interfaces, and basic usability validation. Mainnet deployment alone is no longer sufficient.
 
@@ -147,7 +149,7 @@ Rounds run approximately every **6 weeks**. Check [communityfund.stellar.org/awa
 | **Intake process** | Direct submission to Build Award rounds | Interest Form first, then invitation to Build Award round |
 | **Referral system** | None | Verified referral pathway with incentives |
 | **Prescreening** | Manual review only | AI-powered prescreening for non-referred submissions |
-| **Tranche structure** | Milestone-based (MVP, Testnet, Mainnet) | Four explicit tranches: 10% / 20% / 30% / 40% |
+| **Tranche structure** | Milestone-based (MVP, Testnet, Mainnet) | Same three milestones with four explicit tranches: T0 (10% automatic) / T1 (20%) / T2 (30%) / T3 (40%) |
 | **Final milestone** | Mainnet deployment | Mainnet deployment **plus UX readiness** |
 | **Post-launch support** | Limited (LaunchKit, accelerator connections) | Growth Hack program, BD support, Launch Weeks, investment access |
 | **Lifetime funding cap** | Up to $150K | Up to $150K standard, up to $300K case-by-case |
@@ -192,7 +194,7 @@ Before reaching the review panel, submissions must clear prescreening:
 - Evidence of product-market fit or validated need.
 - Named, credible team members with relevant experience.
 - Realistic, proportional budget tied to concrete deliverables.
-- First deliverable includes a technical component interacting with Stellar/Soroban.
+- MVP milestone includes a technical component interacting with Stellar/Soroban.
 - Uniqueness — if competitors exist, clear differentiation.
 - Self-contained submission that doesn't require external context.
 
@@ -240,8 +242,8 @@ Before reaching the review panel, submissions must clear prescreening:
 - **Be technically detailed.** Include architecture diagrams, process flows, contract design, and code samples or GitHub links. The more specific you are, the more credible you appear.
 - **Explain why your team can execute.** Name your team members. List relevant experience. Prior Stellar/Soroban work is a strong signal. Building on other chains also counts.
 - **Right-size your budget.** Don't request $150K if you can ship for $60K. Reviewers notice when budgets are inflated. Build a bottom-up cost breakdown tied to your roadmap.
-- **Nail Tranche 0 / your first deliverable.** The first deliverable must include a technical component that interacts directly with Stellar or Soroban. It serves as your proof of intent, and reviewers evaluate it closely.
-- **Separate your tranches clearly.** Each tranche (MVP, Testnet, Mainnet) should have concrete, verifiable deliverables. Vague milestones like "continue development" will hurt your application.
+- **Nail your MVP milestone.** The MVP deliverables must include a technical component that interacts directly with Stellar or Soroban. This serves as your proof of intent, and reviewers evaluate it closely.
+- **Separate your milestones clearly.** Each milestone (MVP, Testnet, Mainnet) should have concrete, verifiable deliverables. Vague milestones like "continue development" will hurt your application.
 - **Make the submission self-contained.** Reviewers only evaluate what's in the submission form. Don't assume they'll check your website, GitHub, or social media unless you link to specific artifacts and explain their relevance inline.
 
 **After you submit:**

@@ -69,17 +69,16 @@ Use market-appropriate rates. Benchmarks from funded projects:
 
 ### Step 4: Build the Budget Table
 
-Produce a per-deliverable breakdown:
+Produce a per-deliverable breakdown organized by milestone:
 
 ```
 ### Budget Breakdown
 
-| Tranche | Deliverable | Role | Rate | Effort | Cost |
+| Milestone | Deliverable | Role | Rate | Effort | Cost |
 |---|---|---|---|---|---|
-| T0 | Soroban contract MVP | Senior dev | $4,500/wk | 3 weeks | $13,500 |
-| T0 | Testnet deployment | Senior dev | $4,500/wk | 1 week | $4,500 |
-| T1 | Backend API | Backend dev | $3,500/wk | 3 weeks | $10,500 |
-| T1 | Frontend prototype | Frontend dev | $3,000/wk | 2 weeks | $6,000 |
+| MVP | Soroban contract + testnet deployment | Senior dev | $4,500/wk | 4 weeks | $18,000 |
+| MVP | Backend API | Backend dev | $3,500/wk | 3 weeks | $10,500 |
+| Testnet | Frontend prototype | Frontend dev | $3,000/wk | 2 weeks | $6,000 |
 | ... | ... | ... | ... | ... | ... |
 
 **Total: $XX,XXX**
@@ -87,19 +86,20 @@ Produce a per-deliverable breakdown:
 
 ### Step 5: Map to Tranches
 
-SCF Build Awards use a 10% / 20% / 30% / 40% tranche structure:
+SCF Build Awards use a 10% / 20% / 30% / 40% tranche structure. Applicants define three milestones (MVP, Testnet, Mainnet), and funding is released in four tranches:
 
-| Tranche | % of Total | Purpose |
+| Tranche | % of Total | Milestone |
 |---|---|---|
-| T0 | 10% | Proof of intent — technical deliverable on Stellar/Soroban |
-| T1 | 20% | Core build — primary development work |
-| T2 | 30% | Feature complete — full functionality, audit readiness |
-| T3 | 40% | Production ready — mainnet, UX, documentation, launch |
+| T0 | 10% | Automatic on award approval — no deliverables |
+| T1 | 20% | MVP — core Stellar/Soroban integration working |
+| T2 | 30% | Testnet — full functionality, audit readiness |
+| T3 | 40% | Mainnet — production launch, UX, documentation |
 
 **Mapping rules:**
-- T0 budget should be ~10% of total. If T0 work costs more, redistribute other tranches
+- T0 (10%) is automatic — no deliverables are mapped to it
+- Your budget covers the three milestones (MVP, Testnet, Mainnet), which map to T1/T2/T3
 - T3 is the largest tranche and should include UX readiness, documentation, and launch work
-- Each tranche should have enough budget to cover its deliverables
+- Each milestone should have enough budget to cover its deliverables
 - The tranche amounts don't need to be exact percentages — close is fine
 
 Produce a tranche summary:
@@ -107,13 +107,13 @@ Produce a tranche summary:
 ```
 ### Tranche Allocation
 
-| Tranche | Budget | % of Total | Key Deliverables |
-|---|---|---|---|
-| T0 | $X,XXX | ~10% | [Deliverable names] |
-| T1 | $XX,XXX | ~20% | [Deliverable names] |
-| T2 | $XX,XXX | ~30% | [Deliverable names] |
-| T3 | $XX,XXX | ~40% | [Deliverable names] |
-| **Total** | **$XX,XXX** | **100%** | |
+| Tranche | Milestone | Budget | % of Total | Key Deliverables |
+|---|---|---|---|---|
+| T0 | — | $X,XXX | ~10% | Automatic on approval |
+| T1 | MVP | $XX,XXX | ~20% | [Deliverable names] |
+| T2 | Testnet | $XX,XXX | ~30% | [Deliverable names] |
+| T3 | Mainnet | $XX,XXX | ~40% | [Deliverable names] |
+| **Total** | | **$XX,XXX** | **100%** | |
 ```
 
 ### Step 6: Validate

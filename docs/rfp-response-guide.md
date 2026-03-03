@@ -177,14 +177,13 @@ Based on common panel feedback, here's what differentiates winning submissions:
 
 RFP deliverables should emphasize different things than Integration or Open Track deliverables:
 
-| Tranche | Focus for RFP Projects |
-|---------|----------------------|
-| **T0 (10%)** | Core functionality proof-of-concept. Show the hardest technical piece working. |
-| **T1 (20%)** | Functional prototype with basic API/CLI. A developer should be able to try it. |
-| **T2 (30%)** | Feature-complete on testnet with documentation draft, integration tests, and example usage. |
-| **T3 (40%)** | Production-ready with full documentation, CI/CD, published package, and maintenance plan active. |
+| Milestone | Tranche | Focus for RFP Projects |
+|-----------|---------|----------------------|
+| **MVP** | **T1 (20%)** | Core functionality proof-of-concept. Show the hardest technical piece working. Functional prototype with basic API/CLI. A developer should be able to try it. |
+| **Testnet** | **T2 (30%)** | Feature-complete on testnet with documentation draft, integration tests, and example usage. |
+| **Mainnet** | **T3 (40%)** | Production-ready with full documentation, CI/CD, published package, and maintenance plan active. |
 
-**Key difference:** RFP deliverables should include documentation and developer-facing artifacts in every tranche, not just T3. For tooling projects, a README with quickstart, API reference, and examples is as important as the code itself.
+**Key difference:** RFP deliverables should include documentation and developer-facing artifacts in every milestone, not just Mainnet. For tooling projects, a README with quickstart, API reference, and examples is as important as the code itself.
 
 ---
 

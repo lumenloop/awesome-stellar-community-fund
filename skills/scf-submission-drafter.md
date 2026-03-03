@@ -72,11 +72,11 @@ Structure deliverables using the funded project format:
 ```
 
 Key rules:
-- 2–4 deliverables per tranche
-- T0 must be technical (code interacting with Stellar/Soroban)
-- T3 must include UX readiness (functional interfaces, usable onboarding)
+- 2–4 deliverables per milestone
+- MVP must be technical (code interacting with Stellar/Soroban) — this is your proof of intent
+- Mainnet must include UX readiness (functional interfaces, usable onboarding)
 - Each deliverable must be independently verifiable from outside the team
-- Show clear progression: T0 → T1 → T2 → T3
+- Show clear progression across the three milestones: MVP → Testnet → Mainnet
 
 Reference the [Writing Deliverables Guide](../docs/writing-deliverables.md) for category-specific examples.
 
@@ -114,8 +114,8 @@ After the draft is complete, run through the pre-submit checklist:
 - [ ] Team members are named with relevant experience and links
 - [ ] Traction evidence is specific and verifiable
 - [ ] Deliverables use the structured format
-- [ ] T0 includes a technical deliverable interacting with Stellar/Soroban
-- [ ] T3 includes UX readiness
+- [ ] MVP includes a technical deliverable interacting with Stellar/Soroban
+- [ ] Mainnet milestone includes UX readiness
 - [ ] Budget is bottom-up with rates, effort, and per-tranche breakdown
 - [ ] Budget is proportional to scope
 - [ ] LaunchKit benefits factored in and not double-counted

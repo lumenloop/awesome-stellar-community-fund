@@ -55,13 +55,13 @@ Funded submissions share a consistent deliverable format. Use it:
 > - **Estimated completion:** Date or duration.
 > - **Budget:** Cost for this deliverable.
 
-**Aim for 2–4 deliverables per tranche.** Each one should be independently verifiable. If a reviewer can't confirm completion from outside your team, rewrite it.
+**Aim for 2–4 deliverables per milestone.** Each one should be independently verifiable. If a reviewer can't confirm completion from outside your team, rewrite it.
 
-**Tranche 0 must be technical.** Your proof of intent needs to include code interacting with Stellar or Soroban — not a design doc, not a research phase, not an environment setup.
+**MVP must be technical.** Your first milestone is your proof of intent — it needs to include code interacting with Stellar or Soroban. Not a design doc, not a research phase, not an environment setup.
 
-**Show clear progression.** T1 builds on T0, T2 builds on T1, T3 takes it to production. Avoid vague milestones like "continue development" or "further research."
+**Show clear progression.** Each milestone builds on the last: MVP → Testnet → Mainnet. Avoid vague milestones like "continue development" or "further research."
 
-**T3 must include UX readiness.** Since SCF 7.0, the final tranche requires functional interfaces and usable onboarding — not just a mainnet deployment.
+**Mainnet must include UX readiness.** Since SCF 7.0, the final milestone requires functional interfaces and usable onboarding — not just a mainnet deployment.
 
 See [Writing Deliverables](writing-deliverables.md) for full guidance and category-specific examples.
 
@@ -192,8 +192,8 @@ The most reliable way to improve your submission is to study what gets rejected.
 - [ ] Team members are named with relevant experience and links
 - [ ] Traction evidence is specific and verifiable (or demand signals are concrete)
 - [ ] Deliverables use the structured format (description, completion criteria, date, budget)
-- [ ] T0 includes a technical deliverable interacting with Stellar/Soroban
-- [ ] T3 includes UX readiness (onboarding, documentation, usability)
+- [ ] MVP milestone includes a technical deliverable interacting with Stellar/Soroban
+- [ ] Mainnet milestone includes UX readiness (onboarding, documentation, usability)
 - [ ] Budget is bottom-up with rates, effort, and per-tranche breakdown
 - [ ] Budget is proportional to scope (not inflated to hit $150K)
 - [ ] LaunchKit benefits are factored in and not double-counted

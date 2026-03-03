@@ -33,12 +33,11 @@ The strongest budgets are built from the bottom up: start with the work, estimat
 
 Pull directly from your milestone plan:
 
-| Tranche | Deliverables |
-|---------|-------------|
-| T0 (10%) | Soroban contract POC, architecture doc |
-| T1 (20%) | MVP app with wallet integration, basic UI |
-| T2 (30%) | Full testnet deployment, integration tests, community feedback |
-| T3 (40%) | Mainnet launch, onboarding UX, docs, dashboard |
+| Milestone | Tranche | Deliverables |
+|-----------|---------|-------------|
+| MVP | T1 (20%) | Soroban contract POC, architecture doc, MVP app with wallet integration, basic UI |
+| Testnet | T2 (30%) | Full testnet deployment, integration tests, community feedback |
+| Mainnet | T3 (40%) | Mainnet launch, onboarding UX, docs, dashboard |
 
 ### Step 2: Estimate Effort Per Deliverable
 
@@ -113,16 +112,16 @@ Organize your budget into clear categories. Here's a standard structure:
 
 Your budget should map cleanly to the tranche structure. Reviewers check that the percentage of budget in each tranche matches the scope of work.
 
-**A note on tranches:** The tranche names — MVP, Testnet, Mainnet — are the official names, but they each represent three applicant-defined milestones. You decide what the specific deliverables are within each tranche. "MVP" doesn't have to mean a traditional minimum viable product, and "Testnet" doesn't have to mean your only deliverable is a testnet deployment. What matters is that each tranche represents a meaningful, verifiable step forward that you define — progressively building toward a live, usable product.
+**A note on milestones:** MVP, Testnet, and Mainnet are the official milestone names, but they're symbolic. You decide what the specific deliverables are within each milestone. "MVP" doesn't have to mean a traditional minimum viable product, and "Testnet" doesn't have to mean your only deliverable is a testnet deployment. What matters is that each milestone represents a meaningful, verifiable step forward that you define — progressively building toward a live, usable product.
 
-| Tranche | % of Budget | What the Money Covers |
-|---------|-------------|----------------------|
-| T0 (10%) | $X | POC development, initial architecture |
-| T1 / MVP (20%) | $X | Core features working: first meaningful build |
-| T2 / Testnet (30%) | $X | Feature-complete build, testable, community feedback |
-| T3 / Mainnet (40%) | $X | Production launch, UX readiness, docs, monitoring |
+| Tranche | Milestone | % of Budget | What the Money Covers |
+|---------|-----------|-------------|----------------------|
+| T0 | — | 10% | Automatic on approval — no deliverables |
+| T1 | MVP | 20% | Core features working: first meaningful build |
+| T2 | Testnet | 30% | Feature-complete build, testable, community feedback |
+| T3 | Mainnet | 40% | Production launch, UX readiness, docs, monitoring |
 
-The percentages are fixed (10/20/30/40), so your deliverables per tranche should justify receiving that share. If T0 only requires a weekend of work, your budget may be too high overall.
+The percentages are fixed (10/20/30/40). T0 is automatic, so your deliverables across the three milestones (MVP, Testnet, Mainnet) should justify receiving the remaining 90%.
 
 ---
 
@@ -178,7 +177,7 @@ These are not hard rules. If your team is in a high-cost market, higher rates ar
 | Requesting $150K for a simple integration | Signals grant extraction. Right-size to scope. |
 | Round numbers with no breakdown | "$50,000 for development" tells reviewers nothing. |
 | No per-tranche budget mapping | Reviewers can't verify if tranche payments match the work. |
-| Paying for "research" in T0 | T0 is proof of intent. The money should fund technical work, not planning. |
+| MVP deliverables are all "research" or planning | MVP is your proof of intent. Reviewers need to see code interacting with Stellar, not just plans. |
 | Including "marketing" as a major line item | SCF funds building, not marketing. Small community/docs budget is fine. Large marketing spend is a red flag. |
 | Double-counting LaunchKit benefits | If you'll get audit credits through LaunchKit at T2, don't also budget $30K for an audit. |
 | Massive contingency buffer | More than 5% contingency looks like padding. |
@@ -220,12 +219,12 @@ The lifetime cap is $150K standard, with up to $300K case-by-case for projects w
 
 **Tranche mapping:**
 
-| Tranche | Budget | Work Covered |
-|---------|--------|-------------|
-| T0 (10%) | $8,500 | Soroban escrow contract POC on testnet, architecture finalized |
-| T1 (20%) | $17,000 | MVP mobile app with wallet, basic anchor deposit flow |
-| T2 (30%) | $25,500 | Full testnet app, KYC, tx history, community testing, security review |
-| T3 (40%) | $34,000 | Mainnet launch, onboarding UX, docs, monitoring dashboard |
+| Tranche | Milestone | Budget | Work Covered |
+|---------|-----------|--------|-------------|
+| T0 (10%) | — | $8,500 | Automatic on approval |
+| T1 (20%) | MVP | $17,000 | Soroban escrow contract POC on testnet, MVP mobile app with wallet, basic anchor deposit flow |
+| T2 (30%) | Testnet | $25,500 | Full testnet app, KYC, tx history, community testing, security review |
+| T3 (40%) | Mainnet | $34,000 | Mainnet launch, onboarding UX, docs, monitoring dashboard |
 
 ---
 

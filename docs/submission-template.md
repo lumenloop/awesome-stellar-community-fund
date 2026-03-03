@@ -266,7 +266,7 @@ The strongest submissions tie their per-tranche budgets directly to the delivera
 
 | Tranche | Budget | Breakdown |
 |---------|--------|-----------|
-| T0 (10%) | $[X] | [Automatic — 10% of total on award approval] |
+| T0 (10%) | $[X] | Automatic — 10% of total on award approval (no deliverables) |
 | T1 / MVP (20%) | $[X] | [e.g., Development $XK, Design $XK, Infrastructure $XK] |
 | T2 / Testnet (30%) | $[X] | [e.g., Development $XK, QA/testing $XK, Security $XK] |
 | T3 / Mainnet (40%) | $[X] | [e.g., Development $XK, UX improvements $XK, Docs $XK, Monitoring $XK] |
@@ -317,7 +317,7 @@ The strongest submissions tie their per-tranche budgets directly to the delivera
 - [ ] **Architecture:** Detailed, with diagrams, data flows, and security section
 - [ ] **Team:** Named members with relevant experience and links
 - [ ] **Traction:** Specific metrics or concrete demand signals
-- [ ] **Deliverables:** 2-4 per tranche, verifiable, with T0 including Stellar/Soroban technical work
+- [ ] **Deliverables:** 2-4 per milestone, verifiable, with MVP including Stellar/Soroban technical work
 - [ ] **Budget:** Bottom-up, proportional, mapped to tranches
 - [ ] **UX readiness:** Planned for in T3 deliverables
 - [ ] **Self-contained:** Submission makes sense without visiting external links
