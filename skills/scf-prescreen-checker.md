@@ -1,13 +1,13 @@
 ---
 name: scf-prescreen-checker
-description: "Simulate the SCF prescreen filter on a Build Award application before submission. Use when a team wants to check whether their application would pass or fail the automated prescreening that filters 18.7% of submissions. Checks for completeness, Stellar integration, eligibility, budget issues, and common disqualifiers."
+description: "Simulate the SCF prescreen filter on a Build Award application before submission. Use when a team wants to check whether their application would pass or fail the SDF prescreening that filters 18.7% of submissions. Checks for completeness, Stellar integration, eligibility, budget issues, and common disqualifiers."
 ---
 
 # SCF Prescreen Checker
 
 ## Overview
 
-Simulates the SCF prescreening process that all non-referred submissions go through before human reviewers see them. Identifies issues that would cause an application to fail at prescreen — the stage where 18.7% of Build Award submissions are eliminated.
+Simulates the SCF prescreening process that all non-referred submissions go through before panel review. The SDF confirms completeness and eligibility at this stage. Identifies issues that would cause an application to fail at prescreen — the stage where 18.7% of Build Award submissions are eliminated.
 
 ## When to Use
 
@@ -17,7 +17,7 @@ Simulates the SCF prescreening process that all non-referred submissions go thro
 
 ## How Prescreening Works
 
-Non-referred submissions go through AI-powered prescreening that evaluates whether the application meets basic quality and relevance thresholds. Referred submissions bypass this filter entirely.
+Non-referred submissions go through SDF prescreening that confirms the application is complete and meets core eligibility criteria. Referred submissions bypass this filter entirely.
 
 The most common prescreen failure causes (from historical data):
 1. **Incomplete applications** — Missing sections, unanswered fields, broken links

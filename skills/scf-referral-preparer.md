@@ -1,6 +1,6 @@
 ---
 name: scf-referral-preparer
-description: "Help teams prepare materials for an SCF referral. Use when a team wants to approach a referrer (SCF Pilot, SDF staff, ambassador, or SCF alumni) with a strong package that makes it easy for the referrer to evaluate and endorse them. Covers the referral form fields, what referrers assess, and how to present your project for referral."
+description: "Help teams prepare materials for an SCF referral. Use when a team wants to approach a referrer (SCF Pilot, SDF staff, alumni who completed deliverables, ambassador, or ecosystem partner) with a strong package that makes it easy for the referrer to evaluate and endorse them. Covers the referral form fields, what referrers assess, and how to present your project for referral."
 ---
 
 # SCF Referral Preparer
@@ -13,9 +13,9 @@ Helps teams prepare a referral package — the materials and context a referrer 
 
 A referral is a trust transaction. The referrer stakes their reputation on your team. They earn recognition and financial incentives tied to the success of teams they refer — if you fail or waste funding, their credibility erodes.
 
-Referrers are typically SCF Pilots (the highest governance tier) or SDF staff. They're selective because every endorsement carries real consequences. Giving them a clear, honest, well-organized package isn't just polite — it directly affects whether they'll refer you.
+Referrers are typically SCF Pilots (the highest governance tier), SDF staff, or alumni who completed their deliverables. They're selective because every endorsement carries real consequences. Giving them a clear, honest, well-organized package isn't just polite — it directly affects whether they'll refer you.
 
-Referred submissions bypass AI-powered prescreening (which filters 18.7% of applications) and carry stronger trust signals into human review.
+Referred submissions bypass SDF prescreening (which filters 18.7% of applications) and carry stronger trust signals into panel review.
 
 ## When to Use
 

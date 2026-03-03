@@ -83,13 +83,13 @@ Don't write your Build Award application in the Interest Form. Be concise, be cl
 
 ## The Referral Advantage
 
-If you can get a referral from an SCF alumni, Stellar Ambassador, accelerator program, or official ecosystem partner, do it before submitting your Interest Form. Referred teams receive:
+If you can get a referral from an SCF Pilot, SDF staff member, SCF alumni, Stellar Ambassador, accelerator program, or official ecosystem partner, do it before submitting your Interest Form. Referred teams receive:
 
 - Stronger trust signals during review
 - Faster time-to-decision
-- Bypass of AI-based prescreening
+- Bypass of SDF prescreening
 
-Teams without referrals go through standard processing, which includes AI prescreening that filters low-signal submissions. A referral doesn't guarantee an invitation, but it significantly improves your odds and speed.
+Teams without referrals go through standard processing, which includes SDF prescreening that checks completeness and eligibility. A referral doesn't guarantee an invitation, but it significantly improves your odds and speed.
 
 **How to get a referral:**
 - Join the Stellar Developer Discord and engage in #scf-general

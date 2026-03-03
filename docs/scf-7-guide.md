@@ -120,18 +120,18 @@ Build Award recipients unlock the Stellar LaunchKit at the Testnet milestone, wh
 5. **Prescreening.** SCF team members review your submission at a high level. Referred submissions receive expedited handling.
 6. **Panel or community review.** Depending on the track:
    - Integration and RFP: Reviewed by a delegate panel.
-   - Open: Goes to community vote via Neural Quorum Governance.
+   - Open: Panel evaluates ecosystem value, technical feasibility, and team capability, then eligible projects go to community vote via Neural Quorum Governance.
 7. **Award and tranche disbursement.** Approved projects receive Tranche 0 and begin building toward milestones.
 
 ### Referral Pathway (New in 7.0)
 
-Trusted ecosystem participants — SCF alumni, ambassadors, accelerator programs, and official partners — can refer incoming teams. Referred teams receive:
+Trusted ecosystem participants — primarily SCF Pilots and SDF staff, as well as ambassadors, alumni, and ecosystem partners — can refer incoming teams. Referred teams receive:
 
 - Stronger trust signals during review
 - Faster time-to-decision
 - Referrers earn recognition and financial incentives tied to team success
 
-Teams without referrals enter the standard pipeline and go through AI-based prescreening that filters low-signal submissions.
+Teams without referrals enter the standard pipeline and go through prescreening where the SDF confirms the application is complete and meets core eligibility criteria.
 
 ### Build Award Rounds
 
@@ -149,7 +149,7 @@ Rounds run approximately every **6 weeks**. Check [communityfund.stellar.org/awa
 | **Early-stage support** | Kickstart (5-day bootcamp, up to $15K) | Instawards (decentralized, ambassador-led, up to $15K) |
 | **Intake process** | Direct submission to Build Award rounds | Interest Form first, then invitation to Build Award round |
 | **Referral system** | None | Verified referral pathway with incentives |
-| **Prescreening** | Manual review only | AI-powered prescreening for non-referred submissions |
+| **Prescreening** | Manual review only | SDF prescreening for completeness and eligibility |
 | **Tranche structure** | Milestone-based (MVP, Testnet, Mainnet) | Same three milestones with four explicit tranches: T0 (10% automatic) / T1 (20%) / T2 (30%) / T3 (40%) |
 | **Final milestone** | Mainnet deployment | Mainnet deployment **plus UX readiness** |
 | **Post-launch support** | Limited (LaunchKit, accelerator connections) | Growth Hack program, BD support, Launch Weeks, investment access |
@@ -166,7 +166,7 @@ Rounds run approximately every **6 weeks**. Check [communityfund.stellar.org/awa
 | **4.0** (Rounds 12-19) | 2022-2023 | Soroban era. 10% Proof of Intent upfront, 90% after community vote. Rapid round cadence. |
 | **5.0** (Rounds 20+) | 2023-2024 | Activation Award + Community Award model. Neural Quorum Governance introduced. |
 | **6.0** | 2024-2025 | Merged into single Build Award (up to $150K). Kickstart bootcamp. Category Delegate Panels. LaunchKit. |
-| **7.0** | 2026-present | Three specialized tracks. Instawards. Referral system. AI prescreening. UX readiness gate. Growth Hack. |
+| **7.0** | 2026-present | Three specialized tracks. Instawards. Referral system. SDF prescreening. UX readiness gate. Growth Hack. |
 
 ---
 
@@ -250,7 +250,7 @@ Before reaching the review panel, submissions must clear prescreening:
 
 **After you submit:**
 
-- **Seek a referral.** If you know SCF alumni, ambassadors, or ecosystem partners, ask them to refer you through the verified referral pathway. This gives your application a trust signal and faster review.
+- **Seek a referral.** If you know Pilots, SDF staff, alumni who completed their deliverables, ambassadors, or ecosystem partners, ask them to refer you through the verified referral pathway. This gives your application a trust signal and faster review.
 - **Prepare for UX readiness.** Remember that the final tranche now requires functional interfaces and usable onboarding — not just a mainnet deployment. Plan for UX from the start, not as an afterthought.
 - **Plan for growth.** SCF 7.0 offers post-launch support for teams that demonstrate traction. Think beyond launch: what are your adoption targets, growth loops, and metrics?
 

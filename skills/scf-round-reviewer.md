@@ -1,6 +1,6 @@
 ---
 name: scf-round-reviewer
-description: "Review and rank an entire SCF Build Award round end-to-end. Use when given a set of SCF submission JSONs and asked to evaluate, score, calibrate, and rank all submissions. Covers data collection, categorization, parallel batch review with 6-dimension scoring, cross-batch calibration, referral adjustments, final ranking, and PDF generation. Produces individual review files, calibration reports, a master index, and a final ranking report."
+description: "Review and rank an entire SCF Build Award round end-to-end. Use when given a set of SCF submission files and asked to evaluate, score, calibrate, and rank all submissions. Covers data collection, categorization, parallel batch review with 6-dimension scoring, cross-batch calibration, referral adjustments, final ranking, and PDF generation. Produces individual review files, calibration reports, a master index, and a final ranking report."
 ---
 
 # SCF Build Award Round Reviewer
@@ -12,7 +12,7 @@ Step-by-step instructions to independently review and rank all submissions to an
 ## Prerequisites
 
 ### Files Required
-- Submission JSON files in `submissions/{id}.json` (one per submission) — see Data Schema below
+- Submission files in `submissions/{slug}.md` (one per submission) — see Submission File Format below
 - Review skill definitions in `.claude/skills/`:
   - `scf-reviewer.md` — Core review framework with 6-area scoring
   - `scf-prescreen-checker.md` — 5-area prescreen simulation
@@ -22,38 +22,74 @@ Step-by-step instructions to independently review and rank all submissions to an
 
 All skills are available at: https://github.com/lumenloop/awesome-stellar-community-fund/tree/main/skills
 
-### Submission JSON Schema
-Each submission file must contain:
-```json
-{
-  "id": "recXXX",
-  "project_name": "...",
-  "tagline": "...",
-  "url": "https://communityfund.stellar.org/dashboard/submissions/recXXX",
-  "team": [{"name": "", "role": "", "background": "", "linkedin": "", "github": "", "twitter": ""}],
-  "description": "full verbatim text",
-  "key_components": [{"name": "", "description": ""}],
-  "budget_total": 140000,
-  "budget_currency": "USD",
-  "award_type": "Build",
-  "tranches": [
-    {
-      "name": "Tranche 1",
-      "budget": 28000,
-      "timeline": "Month 1-3",
-      "budget_breakdown": {},
-      "deliverables": [
-        {"name": "", "description": "", "budget": 0, "acceptance_criteria": ""}
-      ]
-    }
-  ],
-  "traction": "full verbatim text",
-  "stellar_integration": "full verbatim text",
-  "links": {"website": "", "github": "", "architecture": ""},
-  "referrer": "name - SDF",
-  "previous_awards": 0,
-  "status": "Community Vote"
-}
+### Submission File Format
+Each submission file (`submissions/{slug}.md`) must contain the following sections:
+
+```markdown
+# {Project Name}
+
+## Metadata
+
+| Field | Value |
+|---|---|
+| ID | recXXX |
+| Tagline | One-line description |
+| URL | https://communityfund.stellar.org/dashboard/submissions/recXXX |
+| Budget | $140,000 USD |
+| Award Type | Build |
+| Referrer | Name - SDF (or "None") |
+| Previous Awards | 0 |
+| Status | Community Vote |
+
+## Team
+
+| Name | Role | Background | LinkedIn | GitHub | Twitter |
+|---|---|---|---|---|---|
+| ... | ... | ... | ... | ... | ... |
+
+## Description
+
+Full verbatim text from the submission.
+
+## Key Components
+
+| Component | Description |
+|---|---|
+| ... | ... |
+
+## Stellar Integration
+
+Full verbatim text from the submission.
+
+## Traction
+
+Full verbatim text from the submission.
+
+## Tranches
+
+### Tranche 1 — MVP ($28,000, Month 1-3)
+
+**Budget Breakdown:**
+
+| Item | Cost |
+|---|---|
+| ... | ... |
+
+**Deliverables:**
+
+| Deliverable | Description | Budget | Acceptance Criteria |
+|---|---|---|---|
+| ... | ... | ... | ... |
+
+(Repeat for each tranche)
+
+## Links
+
+| Link | URL |
+|---|---|
+| Website | ... |
+| GitHub | ... |
+| Architecture | ... |
 ```
 
 If submissions are not yet scraped, use the SCF website scraping process described in Phase 0.
@@ -70,7 +106,7 @@ Many SCF submissions link to external architecture documents (Google Docs, Googl
 - For Google Docs: converts `docs.google.com/document/d/{id}` to export format
 - For Google Drive files: converts `drive.google.com/file/d/{id}` to direct download
 
-Common URL patterns to look for in submission `links.architecture` fields:
+Common URL patterns to look for in submission Links sections (especially the Architecture row):
 - `docs.google.com/document/d/...` — Google Doc
 - `drive.google.com/file/d/...` — Google Drive PDF/file
 - `drive.google.com/open?id=...` — Google Drive link (alternate format)
@@ -85,14 +121,14 @@ Common URL patterns to look for in submission `links.architecture` fields:
 
 ## Phase 0: Data Collection (if needed)
 
-Skip this phase if submission JSONs already exist.
+Skip this phase if submission files already exist.
 
 1. Save the SCF round community voting page as HTML from `communityfund.stellar.org`
 2. Parse submission URLs from the page, extracting project names and `/dashboard/submissions/{id}` links
 3. Extract referrer data by matching `Referred by:` badges
 4. Fetch each submission page and scrape the full application content
-5. Create one JSON file per submission in `submissions/` following the schema above
-6. Verify all JSONs against live pages — check for missing fields, truncated content, budget math errors
+5. Create one markdown file per submission in `submissions/` following the format above
+6. Verify all files against live pages — check for missing fields, truncated content, budget math errors
 7. Install the 8 SCF analysis skills from https://github.com/lumenloop/awesome-stellar-community-fund/tree/main/skills into `.claude/skills/`
 
 ---
@@ -102,7 +138,7 @@ Skip this phase if submission JSONs already exist.
 **Executor**: Leader agent (you)
 
 ### Step 1.1: Read All Submissions
-Read every JSON file in `submissions/`. For each, extract:
+Read every file in `submissions/`. For each, extract:
 - id, project_name, budget_total, referrer, team size, previous_awards
 - Primary technology (Soroban contracts, Horizon API, SEPs, etc.)
 - What the project does (DeFi, tooling, identity, payments, etc.)
@@ -162,8 +198,8 @@ IMPORTANT: Tell each agent to use SLUG filenames (not IDs) for output files. Tel
 
 Each agent performs these steps for every submission in their batch:
 
-#### Step A: Read Submission JSON
-Read `submissions/{id}.json`. Note all fields including team, tranches, links, traction, stellar_integration.
+#### Step A: Read Submission File
+Read `submissions/{slug}.md`. Note all sections including team, tranches, links, traction, stellar integration.
 
 #### Step B: Prescreen (5 checks)
 
@@ -181,7 +217,7 @@ Prescreen result:
 - LIKELY FAIL: Any FAIL
 
 #### Step C: Link Verification
-WebFetch every URL in the submission's `links` object, plus any URLs mentioned in `traction` or `stellar_integration` fields.
+WebFetch every URL in the submission's Links section, plus any URLs mentioned in the Traction or Stellar Integration sections.
 
 For each URL, record:
 - Status: ACCESSIBLE or UNVERIFIED
@@ -262,7 +298,7 @@ Sort all submissions by composite score. Divide into three groups:
 
 For each of the ~20 submissions:
 1. Read the review file
-2. Read the submission JSON to get external doc links
+2. Read the submission file to get external doc links
 3. Fetch external architecture docs (see "Fetching External Architecture Docs" in Prerequisites):
    - Google Docs/Drive URLs → use `read-gdoc` skill via Skill tool
    - Notion URLs → use WebFetch

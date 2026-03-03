@@ -10,7 +10,7 @@ SCF 7.0 introduced a verified referral pathway as a core part of how strong team
 - **Faster time-to-decision.** Referred submissions are prioritized in the review pipeline.
 - **Human context.** Your referrer adds qualitative insight about your team that no form can capture.
 
-Without a referral, your submission goes through AI-powered prescreening that filters low-signal applications before human reviewers see them. That filter works, but a referral bypasses it entirely.
+Without a referral, your submission goes through SDF prescreening — a completeness and eligibility check that filters low-signal applications before panel review. That filter works, but a referral bypasses it entirely.
 
 The referral program exists to build a more trust-based sourcing layer for the SCF — helping discover strong teams earlier, adding real-world context to applications, and expanding into new geographies and communities.
 
@@ -25,7 +25,7 @@ Referrers are trusted ecosystem contributors who have been vetted and invited in
 - **SCF Pilots** — The core group of experienced community members who serve as delegates, reviewers, and governance participants across SCF rounds. Pilots are the most common referrers.
 - **Stellar Development Foundation staff** — SDF team members who work directly with the ecosystem and have visibility into what the network needs.
 - **Stellar Ambassadors** — Regional community leaders recognized by the ecosystem.
-- **SCF alumni** — Teams who have previously received and delivered on SCF awards.
+- **SCF alumni who reached mainnet** — Teams who have completed all tranches and shipped to mainnet are eligible to refer new teams.
 - **Accelerator programs and official ecosystem partners** — Organizations with established Stellar relationships.
 
 Each referrer receives a **unique referrer code** that they use when endorsing teams. This code ties every referral back to the referrer's track record.
@@ -143,7 +143,7 @@ Here's the full flow from the applicant's perspective:
 
 Referrals are valuable but not required. Plenty of projects get funded without one.
 
-Without a referral, your submission goes through **AI-powered prescreening** — an automated filter that evaluates whether your application meets basic quality and relevance thresholds before human reviewers see it. To pass prescreening:
+Without a referral, your submission goes through **SDF prescreening** — a review that confirms your application is complete and meets core eligibility criteria before moving to panel review. To pass prescreening:
 
 - Make sure your submission is complete and coherent
 - Demonstrate that Stellar is core to your project
@@ -165,7 +165,7 @@ The SCF doesn't publish a public list of referrers. But referrers are typically 
 Other potential referrers include:
 
 - **Stellar Ambassadors.** Regional community leaders active in local Stellar communities.
-- **SCF alumni with completed awards.** Teams that have delivered all tranches. Check the [SCF Awards page](https://communityfund.stellar.org/awards) for previously funded projects.
+- **SCF alumni who reached mainnet.** Teams that have completed all tranches and shipped to mainnet are now eligible referrers. Check the [SCF Awards page](https://communityfund.stellar.org/awards) for previously funded projects.
 - **Accelerator programs and ecosystem partners.** Organizations with established Stellar relationships.
 
 The best path to finding a referrer is being visibly active in the ecosystem before you need one. Pilots and SDF staff notice teams that contribute authentically — not teams that appear only when they want something.
