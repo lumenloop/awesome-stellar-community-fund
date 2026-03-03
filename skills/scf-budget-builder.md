@@ -52,12 +52,12 @@ Use market-appropriate rates. Benchmarks from funded projects:
 
 | Role | Typical Range | Notes |
 |---|---|---|
-| Senior Soroban/smart contract dev | $3,500–$5,500/week | Higher end for specialized DeFi/protocol work |
-| Backend developer | $2,500–$4,500/week | Depends on complexity and experience |
-| Frontend developer | $2,500–$4,000/week | React/Next.js typical stack |
-| Full-stack developer | $3,000–$4,500/week | Common for smaller teams |
-| UI/UX designer | $2,000–$3,500/week | Often part-time or per-deliverable |
-| DevOps / infrastructure | $2,500–$4,000/week | Often part-time across tranches |
+| Smart contract developer (Soroban/Rust) | $2,500–$5,000/week | Higher end for specialized DeFi/protocol work |
+| Backend developer | $2,000–$4,000/week | Depends on complexity and experience |
+| Frontend developer | $1,500–$3,500/week | React/Next.js typical stack |
+| Full-stack developer | $2,000–$4,000/week | Common for smaller teams |
+| UI/UX designer | $1,500–$3,000/week | Often part-time or per-deliverable |
+| DevOps / infrastructure | $2,000–$4,000/week | Often part-time across tranches |
 | Technical writer | $1,500–$2,500/week | Documentation-heavy deliverables |
 | Project management | $1,500–$2,500/week | Usually partial allocation |
 
@@ -76,9 +76,9 @@ Produce a per-deliverable breakdown organized by milestone:
 
 | Milestone | Deliverable | Role | Rate | Effort | Cost |
 |---|---|---|---|---|---|
-| MVP | Soroban contract + testnet deployment | Senior dev | $4,500/wk | 4 weeks | $18,000 |
-| MVP | Backend API | Backend dev | $3,500/wk | 3 weeks | $10,500 |
-| Testnet | Frontend prototype | Frontend dev | $3,000/wk | 2 weeks | $6,000 |
+| MVP | Soroban contract + testnet deployment | Senior dev | $4,000/wk | 4 weeks | $16,000 |
+| MVP | Backend API | Backend dev | $3,000/wk | 3 weeks | $9,000 |
+| Testnet | Frontend prototype | Frontend dev | $2,500/wk | 2 weeks | $5,000 |
 | ... | ... | ... | ... | ... | ... |
 
 **Total: $XX,XXX**
@@ -124,10 +124,10 @@ Check the budget against these benchmarks:
 
 | Category | Median | Middle 50% Range |
 |---|---|---|
-| Applications | $85,000 | $55K–$115K |
-| Developer Tooling | $75,000 | $47K–$100K |
-| Financial Protocols | $109,000 | $80K–$147K |
-| Infrastructure | $116,000 | $75K–$149K |
+| Applications | $85,000 | $60K–$118K |
+| Developer Tooling | $75,000 | $35K–$99K |
+| Financial Protocols | $109,000 | $94K–$144K |
+| Infrastructure | $116,000 | $62K–$143K |
 
 **Red flags to check:**
 - [ ] Total exceeds $150K without strong justification (lifetime cap is $150K–$300K)
