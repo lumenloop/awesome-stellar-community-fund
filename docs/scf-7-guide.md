@@ -42,10 +42,11 @@ SCF 7.0 reorganizes the Build Award into three specialized tracks, plus a decent
 
 **Critical distinction:** The Integration Track is a grant *for* an integration. It is not an Open Track submission that happens to mention an integration partner. The integration partner and the building block being integrated must be the central focus of the project. Reviewers evaluate whether the partner is relevant, whether the integration is substantive, and whether the end product delivers the building block's value to users. If your project is a novel protocol or tool that merely touches an existing component, it belongs in the Open Track instead.
 
-- Reviewed by a quarterly-rotating panel of SCF Pilot delegates.
-- The specific building blocks and use cases eligible for the Integration Track are decided by quarterly (and ad hoc) community votes. Check the current list before applying.
+- Reviewed by a quarterly-rotating panel of SCF Pilot delegates (two reviewers per submission, with tie-breaker if they disagree).
+- Must integrate with at least one component from the official [Integration List](https://stellar.gitbook.io/scf-handbook/scf-awards/build-award/integration-track/integration-list). The list is updated quarterly via community votes — check it before applying.
 - Ideal for fintech apps, neobanks, remittance platforms, and other end-user products that leverage existing Stellar infrastructure rather than building new primitives from scratch.
 - The integration partner should be named, active in the Stellar ecosystem, and directly relevant to the project's core functionality.
+- **Budget ranges by scope:** Small integration ($25K–$50K), Medium ($50K–$100K), Large/multi-component ($100K–$150K). Excludes audit and marketing costs.
 
 ### 2. Open Track
 
@@ -80,7 +81,7 @@ SCF 7.0 reorganizes the Build Award into three specialized tracks, plus a decent
 ### Build Award (Integration, Open, and RFP Tracks)
 
 - **Maximum:** Up to **$150,000 in XLM** per award.
-- **Duration:** Intended to cover up to approximately 4 months of development costs through mainnet launch.
+- **Duration:** Intended to cover approximately 4 months of development costs through mainnet launch. Projects cannot exceed 6 months total.
 - **Lifetime cap:** Up to $150K across all awards. Projects exceeding this may be eligible for additional funding on a case-by-case basis, up to a $300K lifetime maximum.
 - **XLM valuation:** Calculated using the CF Stellar Lumens-Dollar Settlement Price on the payment date, not at the time of application.
 
@@ -196,6 +197,7 @@ Before reaching the review panel, submissions must clear prescreening:
 - Realistic, proportional budget tied to concrete deliverables.
 - MVP milestone includes a technical component interacting with Stellar/Soroban.
 - Uniqueness — if competitors exist, clear differentiation.
+- Smart contracts must have an open-source plan.
 - Self-contained submission that doesn't require external context.
 
 ---

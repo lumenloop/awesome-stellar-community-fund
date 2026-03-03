@@ -96,15 +96,16 @@ Organize your budget into clear categories. Here's a standard structure:
 - Monitoring and alerting tools
 
 ### Security (typically 5-10%)
-- Smart contract audit (note: LaunchKit provides audit credits at T2 — factor this in)
+- Internal security review
 - Penetration testing
-- Security review
+- Dev time for audit remediation (fixing issues found during audit)
+- **Note:** The audit itself is covered by the Audit Bank (available via LaunchKit at T2) — do not budget separately for audit fees. You can budget dev time for addressing audit findings.
 
 ### Operations and Other (typically 0-10%)
 - Documentation
 - Community management
-- Legal (if needed for compliance)
 - Contingency (keep this small — 5% max — or omit)
+- **Note:** Legal fees and entity registration costs are ineligible expenses.
 
 ---
 
@@ -179,7 +180,7 @@ These are not hard rules. If your team is in a high-cost market, higher rates ar
 | No per-tranche budget mapping | Reviewers can't verify if tranche payments match the work. |
 | MVP deliverables are all "research" or planning | MVP is your proof of intent. Reviewers need to see code interacting with Stellar, not just plans. |
 | Including "marketing" as a major line item | SCF funds building, not marketing. Small community/docs budget is fine. Large marketing spend is a red flag. |
-| Double-counting LaunchKit benefits | If you'll get audit credits through LaunchKit at T2, don't also budget $30K for an audit. |
+| Budgeting for audit fees | The Audit Bank covers audit costs via LaunchKit at T2. Budget dev time for remediation, not the audit itself. |
 | Massive contingency buffer | More than 5% contingency looks like padding. |
 | No team rates or effort estimates | A budget without rates and hours is a guess, not a plan. |
 | Identical rates for all roles | Different roles have different market rates. Flat rates suggest the budget wasn't built bottom-up. |
@@ -213,7 +214,7 @@ The lifetime cap is $150K standard, with up to $300K case-by-case for projects w
 | **Infrastructure** | Dedicated RPC node (6 mo) | — | $200/mo | $1,200 |
 | | Cloud hosting (6 mo) | — | $300/mo | $1,800 |
 | **Security** | Internal security review | 1 week | $4,000/wk | $4,000 |
-| | (External audit via LaunchKit at T2) | — | — | $0 |
+| | (External audit via LaunchKit — not budgeted) | — | — | $0 |
 | **Operations** | Documentation + API docs | 1 week | $2,000/wk | $2,000 |
 | | | | **Total** | **$85,000** |
 

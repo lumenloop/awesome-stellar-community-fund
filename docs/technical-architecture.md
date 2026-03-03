@@ -42,6 +42,7 @@ This is the most important subsection. Explain exactly how your project uses Ste
 - How contracts interact with each other
 - Resource usage considerations (CPU, memory, storage — Soroban meters these)
 - State archival strategy (how you handle Soroban's TTL-based state expiration)
+- Open-source plan (SCF requires smart contracts to be open source)
 
 **For Stellar-native projects (SEPs, assets, payments), address:**
 - Which SEPs you implement and why (e.g., SEP-31 for cross-border, SEP-24 for deposit/withdraw)

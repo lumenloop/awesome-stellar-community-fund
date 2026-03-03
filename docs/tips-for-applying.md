@@ -178,9 +178,18 @@ The most reliable way to improve your submission is to study what gets rejected.
 | Incomplete submission | Answer every field. Check every link. Have someone outside your team read it |
 | Team credentials unclear | Name every team member with relevant experience and links |
 | Scope too large for budget/timeline | Tighten scope. Start smaller. Come back with traction for more |
-| No technical proof in T0 | Deploy something on testnet before you submit |
+| No technical proof in MVP | Deploy something on testnet before you submit |
 | Security and compliance ignored | Address risks proactively, even if briefly |
 | Submission requires external context to understand | Make it self-contained |
+
+### Resubmission Policy
+
+If your application is rejected, you can resubmit in a future round — but repeated rejections carry consequences:
+
+- **3 rejections** → 3-round submission ban (starting from the round of the third rejection)
+- **Each additional rejection** → adds another 3-round timeout
+
+To resubmit successfully, you must demonstrate significant improvement: stronger roadmap, better-structured deliverables, demonstrated traction or technical progress, or resolution of reviewer-identified issues. Don't resubmit the same application with cosmetic changes.
 
 ---
 

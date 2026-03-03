@@ -98,7 +98,7 @@ User does [action]
 
 - Key management: [How private keys are stored and handled]
 - Access control: [Who can call which functions, admin controls]
-- Audit plan: [Internal review, external audit, LaunchKit audit credits]
+- Audit plan: [Internal review + Audit Bank via LaunchKit at T2 — budget dev time for remediation, not audit fees]
 - Known risks and mitigations: [Relevant attack vectors for your project type]
 
 ### Tech Stack

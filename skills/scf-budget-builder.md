@@ -133,7 +133,8 @@ Check the budget against these benchmarks:
 - [ ] Total exceeds $150K without strong justification (lifetime cap is $150K–$300K)
 - [ ] Any line item over 40% of total budget without explanation
 - [ ] Marketing line items (SCF funds building, not marketing)
-- [ ] External audit budget that duplicates LaunchKit credits (available at T2)
+- [ ] Audit fees included as a line item (the Audit Bank covers this via LaunchKit at T2 — budget dev time for remediation instead)
+- [ ] Legal fees or entity registration included (ineligible)
 - [ ] Contingency or miscellaneous line items over 5%
 - [ ] Rates significantly above benchmarks without justification
 - [ ] Top-down budget that doesn't trace back to deliverables
