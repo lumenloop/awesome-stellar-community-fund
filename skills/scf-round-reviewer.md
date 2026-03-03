@@ -158,9 +158,9 @@ Use judgment for borderline cases. A project that builds infrastructure enabling
 ### Step 1.3: Build Batches
 Create 6 batches of 5-6 submissions, grouped by category. Keep same-category submissions together so reviewers can compare within category. If a category has too few submissions (like Dev Tooling), combine it with a related category batch.
 
-### Step 1.4: Create Output Directories
+### Step 1.4: Create Output Directory
 ```
-mkdir -p reviews/reviews
+mkdir -p reviews
 ```
 
 ### Step 1.5: Write Master Index
@@ -264,7 +264,7 @@ Use judgment at boundaries. A submission at 58 with exceptional ecosystem impact
 
 #### Step H: Write Review File
 
-Write to `reviews/reviews/{slug}.md`. Each review file follows this structure:
+Write to `reviews/{slug}.md`. Each review file follows this structure:
 
 **Title**: `# {Project Name} — SCF #{round} Review`
 
@@ -373,8 +373,7 @@ handoff/
   calibration-top-bottom.pdf
   calibration-middle.pdf
   PROGRESS.pdf
-  reviews/
-    {slug}.pdf (one per submission)
+  {slug}.pdf (one per submission)
 ```
 
 Use the `md2pdf.py` script with markdown-it-py (for proper GFM table rendering) + pymupdf Story API.
