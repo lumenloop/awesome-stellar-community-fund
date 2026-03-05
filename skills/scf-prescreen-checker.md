@@ -93,7 +93,7 @@ Run through each check. For each item, report: **PASS**, **FLAG** (potential iss
 
 Check for common disqualifiers:
 
-- [ ] Budget over $150K without prior SCF award
+- [ ] Budget over $150K (hard cap for Build awards)
 - [ ] Large marketing line items
 - [ ] No technical deliverable in MVP milestone
 - [ ] Team members have no verifiable identity or history
