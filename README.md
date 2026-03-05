@@ -72,7 +72,6 @@ See [docs/README.md](docs/README.md) for a suggested reading order.
 | Friendbot (Testnet Faucet) | [friendbot.stellar.org](https://friendbot.stellar.org) | Fund test accounts with 10,000 XLM on Testnet |
 | Scaffold Stellar | [scaffoldstellar.org](https://scaffoldstellar.org) | CLI tools, Rust contract templates, React frontend for full-stack dApps |
 | Freighter Wallet | [freighter.app](https://www.freighter.app) | Official SDF browser extension wallet for development and testing |
-| Albedo | [albedo.link](https://albedo.link) | Delegated signer — no extension needed |
 
 ### Block Explorers
 
@@ -99,8 +98,9 @@ See [docs/README.md](docs/README.md) for a suggested reading order.
 | Organization | Link | Description |
 |---|---|---|
 | stellar | [github.com/stellar](https://github.com/stellar) | Core protocol, SDKs, Freighter, Laboratory, docs |
-| stellar-expert | [github.com/stellar-expert](https://github.com/stellar-expert) | StellarExpert explorer, Albedo wallet |
+| stellar-expert | [github.com/stellar-expert](https://github.com/stellar-expert) | StellarExpert explorer |
 | OpenZeppelin/stellar-contracts | [github.com/OpenZeppelin/stellar-contracts](https://github.com/OpenZeppelin/stellar-contracts) | OpenZeppelin contract library for Soroban |
+| OpenZeppelin/openzeppelin-skills | [github.com/OpenZeppelin/openzeppelin-skills](https://github.com/OpenZeppelin/openzeppelin-skills) | OpenZeppelin smart contract skills for AI agents |
 
 ## Ecosystem & Community
 
