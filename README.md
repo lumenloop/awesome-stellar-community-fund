@@ -63,6 +63,7 @@ See [docs/README.md](docs/README.md) for a suggested reading order.
 | Stellar RPC API | [developers.stellar.org/docs/data/apis/rpc](https://developers.stellar.org/docs/data/apis/rpc) |
 | Networks (Mainnet, Testnet, Futurenet) | [developers.stellar.org/docs/networks](https://developers.stellar.org/docs/networks) |
 | Stellar Dev Skill (AI reference for Stellar development) | [github.com/stellar/stellar-dev-skill](https://github.com/stellar/stellar-dev-skill) |
+| OpenZeppelin Skills (AI smart contract skills) | [github.com/OpenZeppelin/openzeppelin-skills](https://github.com/OpenZeppelin/openzeppelin-skills) |
 
 ### Developer Tools
 
@@ -100,7 +101,6 @@ See [docs/README.md](docs/README.md) for a suggested reading order.
 | stellar | [github.com/stellar](https://github.com/stellar) | Core protocol, SDKs, Freighter, Laboratory, docs |
 | stellar-expert | [github.com/stellar-expert](https://github.com/stellar-expert) | StellarExpert explorer |
 | OpenZeppelin/stellar-contracts | [github.com/OpenZeppelin/stellar-contracts](https://github.com/OpenZeppelin/stellar-contracts) | OpenZeppelin contract library for Soroban |
-| OpenZeppelin/openzeppelin-skills | [github.com/OpenZeppelin/openzeppelin-skills](https://github.com/OpenZeppelin/openzeppelin-skills) | OpenZeppelin smart contract skills for AI agents |
 
 ## Ecosystem & Community
 
